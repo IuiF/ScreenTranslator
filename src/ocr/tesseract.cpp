@@ -70,7 +70,7 @@ static double getScale(Pix *source)
   if (xRes * yRes == 0)
     return -1.0;
 
-  const auto preferredScale = std::max(500.0 / std::min(xRes, yRes), 1.0);
+  const auto preferredScale = std::max(300.0 / std::min(xRes, yRes), 1.0);
   if (preferredScale <= 1.0)
     return -1.0;
 
@@ -150,9 +150,32 @@ static Pix *prepareImage(const QImage &image)
     pix.trace("Pix 2 Gray");
   }
 
+  {
+    constexpr l_int32 borderSize = 10;
+    pix = pixAddBorder(pix, borderSize, 255);
+    pix.trace("Pix 3 Border Added");
+  }
+
+  {
+    l_float32 angle = 0.0f;
+    l_float32 conf = 0.0f;
+    pix = pixDeskew(pix, 0);
+    if (pix) {
+      pixFindSkew(pix, &angle, &conf);
+      LTRACE() << "Deskew angle:" << angle << "confidence:" << conf;
+    }
+    pix.trace("Pix 4 Deskewed");
+  }
+
+  {
+    constexpr l_int32 blurSize = 1;
+    pix = pixBlockconv(pix, blurSize, blurSize);
+    pix.trace("Pix 5 Noise Reduced");
+  }
+
   if (const auto scale = getScale(pix); scale > 1.0) {
     pix = pixScaleGrayLI(pix, scale, scale);
-    pix.trace("Pix 3 Scaled");
+    pix.trace("Pix 6 Scaled");
   }
 
   l_int32 otsuSx = 5000;
@@ -165,7 +188,7 @@ static Pix *prepareImage(const QImage &image)
     PixGuard otsu;
     pixOtsuAdaptiveThreshold(pix, otsuSx, otsuSy, otsuSmoothx, otsuSmoothy,
                              otsuScorefract, nullptr, &otsu.get());
-    pix.trace("Pix 4 Test Color Otsu");
+    pix.trace("Pix 7 Test Color Otsu");
 
     // Get the average intensity of the border pixels,
     // with average of 0.0 being completely white and 1.0 being completely black
@@ -183,7 +206,7 @@ static Pix *prepareImage(const QImage &image)
     l_float32 threshold = 0.5f;
     if (avg > threshold) {
       pix = pixInvert(nullptr, pix);
-      pix.trace("Pix 5 Inverted");
+      pix.trace("Pix 8 Inverted");
     }
   }
 
@@ -191,16 +214,23 @@ static Pix *prepareImage(const QImage &image)
     l_int32 usm_halfwidth = 5;
     l_float32 usm_fract = 2.5f;
     pix = pixUnsharpMaskingGray(pix, usm_halfwidth, usm_fract);
-    pix.trace("Pix 6 Unshapred");
+    pix.trace("Pix 9 Unsharpened");
   }
 
   {
-    pixOtsuAdaptiveThreshold(pix, otsuSx, otsuSy, otsuSmoothx, otsuSmoothy, 0.0,
-                             nullptr, &pix.get());
-    pix.trace("Pix 7 Binarized");
+    l_int32 whsize = 15;
+    l_float32 factor = 0.3f;
+    PixGuard sauvola(pixSauvolaBinarize(pix, whsize, factor, 1, nullptr, nullptr, nullptr, nullptr));
+    if (sauvola) {
+      pix = sauvola.take();
+    } else {
+      pixOtsuAdaptiveThreshold(pix, otsuSx, otsuSy, otsuSmoothx, otsuSmoothy, 0.0,
+                               nullptr, &pix.get());
+    }
+    pix.trace("Pix 10 Binarized");
   }
 
-  pix.trace("Pix 8 Result");
+  pix.trace("Pix 11 Result");
 
   return pix.take();
 }
