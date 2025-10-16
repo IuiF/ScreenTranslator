@@ -254,16 +254,16 @@ void Tesseract::init(const LanguageId &language, const QString &tessdataPath)
 
   const auto tesseractName = LanguageCodes::tesseract(language);
   auto result = api_->Init(qPrintable(tessdataPath), qPrintable(tesseractName),
-                           tesseract::OcrEngineMode::OEM_DEFAULT);
+                           tesseract::OcrEngineMode::OEM_LSTM_ONLY);
   LTRACE() << "Inited Tesseract api" << result;
-  if (result == 0)
+  if (result != 0) {
+    error_ = QObject::tr("init failed");
+    api_.reset();
+    LTRACE() << "Cleared Tesseract api";
     return;
+  }
 
   api_->SetPageSegMode(tesseract::PageSegMode::PSM_AUTO);
-
-  error_ = QObject::tr("init failed");
-  api_.reset();
-  LTRACE() << "Cleared Tesseract api";
 }
 
 const QString &Tesseract::error() const
@@ -306,23 +306,50 @@ QString Tesseract::recognize(const QPixmap &source)
   SOFT_ASSERT(image, return {});
   LTRACE() << "Preprocessed Pix for OCR" << image;
 
-  api_->SetImage(image);
-  LTRACE() << "Set Pix to engine";
+  const tesseract::PageSegMode psmModes[] = {
+      tesseract::PageSegMode::PSM_AUTO,
+      tesseract::PageSegMode::PSM_SINGLE_BLOCK,
+      tesseract::PageSegMode::PSM_SPARSE_TEXT,
+  };
 
-  const auto outText = api_->GetUTF8Text();
-  LTRACE() << "Received recognized text";
+  QString bestResult;
+  int bestConfidence = 0;
 
-  api_->Clear();
-  LTRACE() << "Cleared engine";
+  for (const auto psm : psmModes) {
+    api_->SetPageSegMode(psm);
+    api_->SetImage(image);
+    LTRACE() << "Set Pix to engine with PSM" << psm;
 
-  const auto result = QString(outText).trimmed();
+    const auto outText = api_->GetUTF8Text();
+    const auto result = QString(outText).trimmed();
+    delete[] outText;
 
-  delete[] outText;
-  LTRACE() << "Cleared recognized text buffer";
+    if (result.isEmpty()) {
+      api_->Clear();
+      continue;
+    }
 
-  if (result.isEmpty())
+    const int confidence = api_->MeanTextConf();
+    LTRACE() << "PSM" << psm << "confidence:" << confidence << "text length:" << result.length();
+
+    if (confidence > bestConfidence) {
+      bestConfidence = confidence;
+      bestResult = result;
+    }
+
+    api_->Clear();
+
+    if (bestConfidence >= 85) {
+      LTRACE() << "High confidence result, stopping PSM iteration";
+      break;
+    }
+  }
+
+  LTRACE() << "Best confidence:" << bestConfidence;
+
+  if (bestResult.isEmpty())
     error_ = QObject::tr("Failed to recognize text or no text selected");
-  return result;
+  return bestResult;
 }
 
 bool Tesseract::isValid() const
