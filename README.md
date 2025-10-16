@@ -1,6 +1,6 @@
-# Screen Translator
+# Advanced Screen Translator
 
-**The project is almost abandoned. I don't have time for it and I can only fix minor issues**
+Forked from [OneMoreGres/ScreenTranslator](https://github.com/OneMoreGres/ScreenTranslator) with focus on improving OCR text detection accuracy.
 
 ## Introduction
 
@@ -8,15 +8,25 @@ This software allows you to translate any text on screen.
 Basically it is a combination of screen capture, OCR and translation tools.
 Translation is currently done via online services.
 
+## Enhancements in this Fork
+
+### OCR Detection Improvements
+- **Deskewing**: Automatic text rotation correction for better accuracy (±2 degrees)
+- **Adaptive Binarization**: Sauvola algorithm with Otsu fallback for various lighting conditions
+- **Noise Reduction**: Gaussian-like filtering to reduce image noise
+- **Border Optimization**: 10px white border addition for improved edge detection
+- **Resolution Optimization**: Adjusted to Tesseract-recommended 300 DPI
+
+### Planned Improvements
+- Dynamic PSM (Page Segmentation Mode) selection
+- OCR confidence-based retry mechanism
+- Configurable OEM (OCR Engine Mode) settings
+
 ## Installation
 
-**Windows**: download archive from [github releases](https://github.com/OneMoreGres/ScreenTranslator/releases) page, extract it and run `.exe` file.
+Build from source (see below). Pre-built binaries are not yet available for this fork.
 
-If the app fails to start complaining about missing dlls or there are any update errors related to SSL/TLS then install or repair `vs_redist*.exe` from the release archive.
-
-**Linux**: download `.AppImage` file from [github releases](https://github.com/OneMoreGres/ScreenTranslator/releases), make executable (`chmod +x <file>`) and run it.
-
-**OS X**: currently not supported.
+For the original ScreenTranslator binaries, see [OneMoreGres/ScreenTranslator releases](https://github.com/OneMoreGres/ScreenTranslator/releases).
 
 ## Setup
 
