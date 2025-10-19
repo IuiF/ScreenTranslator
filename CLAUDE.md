@@ -9,6 +9,33 @@
 
 ScreenTranslatorをForkし機能向上を目指す
 
+## 実装記録
+
+### 2025-10-19: OCR精度向上とビルド環境構築
+
+#### OCR前処理の改善 (src/ocr/tesseract.cpp)
+- 10pxの白色ボーダー追加
+- Deskewing（傾き補正）実装
+- ノイズ低減（Gaussian blur）
+- 解像度を500 DPIから300 DPIに最適化
+- Sauvola適応的二値化を実装（Otsu法をフォールバックとして維持）
+
+#### OCRエンジン設定の最適化
+- Tesseract OEM_LSTM_ONLYモードに変更
+- 複数PSMモード（AUTO, SINGLE_BLOCK, SPARSE_TEXT）での認識実施
+- 信頼度ベースの結果選択（85%で早期終了）
+
+#### GitHub Actionsビルド環境
+- Windows 64bit: ビルド成功（5分36秒）
+- Linux: AppImageビルド成功（4分16秒）
+- 成果物: ScreenTranslator-3.3.0-win64.zip, ScreenTranslator-3.3.0.AppImage
+- ビルド最適化: Tesseract LTO無効化、Leptonica不要機能削除
+
+#### 技術スタック
+- Tesseract 5.2.0 (OEM_LSTM_ONLY)
+- Leptonica 1.82.0
+- Qt 5.15.2
+
 ## コミット規律
 
 - 大きくて頻度の低いコミットよりも、小さくて頻繁なコミットを使用します
