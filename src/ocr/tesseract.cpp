@@ -220,9 +220,10 @@ static Pix *prepareImage(const QImage &image)
   {
     l_int32 whsize = 15;
     l_float32 factor = 0.3f;
-    PixGuard sauvola(pixSauvolaBinarize(pix, whsize, factor, 1, nullptr, nullptr, nullptr, nullptr));
-    if (sauvola) {
-      pix = sauvola.take();
+    Pix *sauvolaResult = nullptr;
+    l_ok result = pixSauvolaBinarize(pix, whsize, factor, 1, nullptr, nullptr, nullptr, &sauvolaResult);
+    if (result == 0 && sauvolaResult) {
+      pix = sauvolaResult;
     } else {
       pixOtsuAdaptiveThreshold(pix, otsuSx, otsuSy, otsuSmoothx, otsuSmoothy, 0.0,
                                nullptr, &pix.get());
