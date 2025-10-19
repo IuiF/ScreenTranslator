@@ -1,53 +1,38 @@
-var lastText = '';
-var active = window.location.href !== "about:blank";
-
-function checkFinished() {
-    if (!active) return;
-
-    let spans = [].slice.call(document.querySelectorAll('span.HwtZe > span > span'));
-    let text = spans.reduce(function (res, i) {
-        return res + ' ' + i.innerText;
-    }, '');
-
-    if (text === lastText || text === '')
-        return;
-
-
-    console.log('translated text', text, 'old', lastText, 'size', text.length, lastText.length);
-    lastText = text;
-    active = false;
-    proxy.setTranslated(text);
+function httpGetAsync(url, callback) {
+  let xmlHttp = new XMLHttpRequest();
+  xmlHttp.timeout = 30000; // msecs
+  xmlHttp.onreadystatechange = function () {
+    if (xmlHttp.readyState != 4)
+      return
+    if (xmlHttp.status == 200)
+      callback(xmlHttp.responseText);
+    else
+      proxy.setFailed(xmlHttp.statusText)
+    xmlHttp.onreadystatechange = null;
+    xmlHttp = null;
+  }
+  xmlHttp.open("GET", url, true);
+  xmlHttp.send(null);
 }
 
 function translate(text, from, to) {
-    console.log('start translate', text, from, to)
+  text = text.replace(/[\n\t]+/g, " ").replace(/\s\s+/g, " ");
+  console.log('start translate', text, from, to)
 
-    if (text.trim().length == 0) {
-        proxy.setTranslated('');
-        return;
-    }
+  let url = 'https://translate.googleapis.com/translate_a/single?client=gtx&sl=auto&tl=' + to + '&dt=t&q=' + encodeURIComponent(text);
+  console.log("loading url", url);
 
-    active = true;
-
-    if (window.location.href.indexOf('//translate.google') !== -1
-        && window.location.href.indexOf('&tl=' + to + '&') !== -1) {
-        var input = document.querySelector('textarea.er8xn');
-        if (input.value == text) {
-            console.log('using cached result');
-            lastText = '';
-            return;
-        }
-        input.value = text;
-        input.dispatchEvent(new Event("input", { bubbles: true, cancelable: true }));
-        return;
-    }
-    let url = 'https://translate.google.com/#view=home&op=translate&sl=auto&tl=' + to + '&text=' + encodeURIComponent(text);
-    console.log("setting url", url);
-    window.location = url;
-
+  httpGetAsync(url, function (response) {
+    console.log('received', response);
+    let object = JSON.parse(response);
+    let result = '';
+    object[0].forEach(function (element) {
+      result += element[0] + ' ';
+    });
+    proxy.setTranslated(result);
+  });
 }
 
 function init() {
-    proxy.translate.connect(translate);
-    setInterval(checkFinished, 300);
+  proxy.translate.connect(translate);
 }
