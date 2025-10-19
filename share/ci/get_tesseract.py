@@ -74,9 +74,10 @@ cmake_args = '"{0}" \
 -DDISABLE_CURL=ON \
 -DDISABLE_ARCHIVE=ON \
 -DUSE_SYSTEM_ICU=ON \
--DENABLE_LTO=ON \
+-DENABLE_LTO=OFF \
 -DGRAPHICS_DISABLED=ON \
 -DDISABLED_LEGACY_ENGINE=ON \
+-DENABLE_OPENCL=OFF \
 '.format(src_dir, install_dir)
 
 if platform.system() == "Windows":

@@ -55,7 +55,7 @@ jobs:
         if: runner.os == 'Linux'
         run: |
           sudo apt-get update
-          sudo apt-get install libgl1-mesa-dev libxkbcommon-x11-0 libxcb-*
+          sudo apt-get install libgl1-mesa-dev libxkbcommon-x11-0 libxcb-* libfuse2
           echo "QMAKE_FLAGS=QMAKE_CXX=g++ QMAKE_CC=gcc QMAKE_LINK=g++" >> $GITHUB_ENV
 
       - name: Cache dependencies

@@ -79,7 +79,7 @@ c.recreate_dir(build_dir)
 os.chdir(build_dir)
 
 cmake_args = '"{}" -DCMAKE_INSTALL_PREFIX="{}" -DBUILD_SHARED_LIBS=ON \
--DSW_BUILD=OFF'.format(src_dir, install_dir,)
+-DSW_BUILD=OFF -DBUILD_PROG=OFF -DENABLE_GIF=OFF -DENABLE_WEBP=OFF -DENABLE_OPENJPEG=OFF'.format(src_dir, install_dir,)
 
 if platform.system() == "Windows":
     env_cmd = c.get_msvc_env_cmd(bitness=bitness, msvc_version=msvc_version)
