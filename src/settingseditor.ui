@@ -114,6 +114,25 @@
        </property>
        <widget class="QWidget" name="pageGeneral">
         <layout class="QGridLayout" name="gridLayout_11">
+         <item row="0" column="0" colspan="2">
+          <widget class="QGroupBox" name="uiLanguageGroup">
+           <property name="title">
+            <string>User Interface</string>
+           </property>
+           <layout class="QGridLayout" name="gridLayout_12">
+            <item row="0" column="0">
+             <widget class="QLabel" name="uiLanguageLabel">
+              <property name="text">
+               <string>Language:</string>
+              </property>
+             </widget>
+            </item>
+            <item row="0" column="1">
+             <widget class="QComboBox" name="uiLanguageCombo"/>
+            </item>
+           </layout>
+          </widget>
+         </item>
          <item row="2" column="0" colspan="2">
           <widget class="QGroupBox" name="groupBox_2">
            <property name="title">

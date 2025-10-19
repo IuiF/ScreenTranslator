@@ -17,6 +17,7 @@ const QString iniFileName()
 }
 
 const QString qs_guiGroup = "GUI";
+const QString qs_uiLanguage = "uiLanguage";
 const QString qs_captureHotkey = "captureHotkey";
 const QString qs_repeatCaptureHotkey = "repeatCaptureHotkey";
 const QString qs_repeatHotkey = "repeatHotkey";
@@ -148,6 +149,7 @@ void Settings::save() const
 
   settings.beginGroup(qs_guiGroup);
 
+  settings.setValue(qs_uiLanguage, uiLanguage);
   settings.setValue(qs_captureHotkey, captureHotkey);
   settings.setValue(qs_repeatCaptureHotkey, repeatCaptureHotkey);
   settings.setValue(qs_repeatHotkey, showLastHotkey);
@@ -228,6 +230,7 @@ void Settings::load()
 
   settings.beginGroup(qs_guiGroup);
 
+  uiLanguage = settings.value(qs_uiLanguage, uiLanguage).toString();
   captureHotkey = settings.value(qs_captureHotkey, captureHotkey).toString();
   repeatCaptureHotkey =
       settings.value(qs_repeatCaptureHotkey, repeatCaptureHotkey).toString();

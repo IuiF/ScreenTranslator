@@ -11,7 +11,7 @@ AppTranslator::AppTranslator(const QStringList &translationFiles)
 {
 }
 
-void AppTranslator::retranslate()
+void AppTranslator::retranslate(const QString &language)
 {
   auto app = QCoreApplication::instance();
   const auto oldTranslators = app->findChildren<QTranslator *>();
@@ -19,7 +19,7 @@ void AppTranslator::retranslate()
     old->deleteLater();
   }
 
-  QLocale locale;
+  QLocale locale = language.isEmpty() ? QLocale() : QLocale(language);
   const auto files =
       QStringList{QStringLiteral("qt"), QStringLiteral("qtbase")} +
       translationFiles_;

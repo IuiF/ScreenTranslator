@@ -118,7 +118,8 @@ OTHER_FILES += \
 
 TRANSLATIONS += \
     share/translations/screentranslator_ru.ts \
-    share/translations/screentranslator_he.ts
+    share/translations/screentranslator_he.ts \
+    share/translations/screentranslator_ja.ts
 
 linux {
     PREFIX = /usr

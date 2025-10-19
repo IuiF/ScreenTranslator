@@ -9,7 +9,7 @@ class AppTranslator
 public:
   explicit AppTranslator(const QStringList &translationFiles);
 
-  void retranslate();
+  void retranslate(const QString &language = QString());
 
 private:
   QStringList searchPaths() const;

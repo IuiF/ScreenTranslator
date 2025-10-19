@@ -39,6 +39,8 @@ public:
   bool showMessageOnStart{true};
   bool runAtSystemStart{false};
 
+  QString uiLanguage{"en"};
+
   ProxyType proxyType{ProxyType::System};
   QString proxyHostName;
   int proxyPort{8080};

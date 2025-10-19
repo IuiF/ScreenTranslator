@@ -43,6 +43,16 @@ SettingsEditor::SettingsEditor(Manager &manager, update::Updater &updater)
   ui->runAtSystemStart->setEnabled(service::RunAtSystemStart::isAvailable());
 
   {
+    QMap<QString, QString> languages;
+    languages.insert("en", "English");
+    languages.insert("ja", "日本語");
+    ui->uiLanguageCombo->clear();
+    for (auto it = languages.begin(); it != languages.end(); ++it) {
+      ui->uiLanguageCombo->addItem(it.value(), it.key());
+    }
+  }
+
+  {
     struct Info {
       QString title;
       QString description;
@@ -251,6 +261,8 @@ Settings SettingsEditor::settings() const
   settings.showMessageOnStart = ui->showOnStart->isChecked();
   settings.writeTrace = ui->writeTrace->isChecked();
 
+  settings.uiLanguage = ui->uiLanguageCombo->currentData().toString();
+
   settings.proxyType = ProxyType(ui->proxyTypeCombo->currentIndex());
   settings.proxyHostName = ui->proxyHostEdit->text();
   settings.proxyPort = ui->proxyPortSpin->value();
@@ -305,6 +317,12 @@ void SettingsEditor::setSettings(const Settings &settings)
 
   ui->showOnStart->setChecked(settings.showMessageOnStart);
   ui->writeTrace->setChecked(settings.writeTrace);
+
+  {
+    int index = ui->uiLanguageCombo->findData(settings.uiLanguage);
+    if (index >= 0)
+      ui->uiLanguageCombo->setCurrentIndex(index);
+  }
 
   ui->proxyTypeCombo->setCurrentIndex(int(settings.proxyType));
   ui->proxyHostEdit->setText(settings.proxyHostName);

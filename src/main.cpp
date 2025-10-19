@@ -1,4 +1,3 @@
-#include "apptranslator.h"
 #include "manager.h"
 #include "singleapplication.h"
 #include "widgetstate.h"
@@ -19,11 +18,6 @@ int main(int argc, char *argv[])
   a.setApplicationVersion(STR(VERSION));
 
   a.setQuitOnLastWindowClosed(false);
-
-  {
-    service::AppTranslator appTranslator({"screentranslator"});
-    appTranslator.retranslate();
-  }
 
   {
     QCommandLineParser parser;

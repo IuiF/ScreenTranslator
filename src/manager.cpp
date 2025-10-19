@@ -1,4 +1,5 @@
 #include "manager.h"
+#include "apptranslator.h"
 #include "capturer.h"
 #include "corrector.h"
 #include "debug.h"
@@ -34,9 +35,13 @@ using Loader = update::Loader;
 Manager::Manager()
   : models_(std::make_unique<CommonModels>())
   , settings_(std::make_unique<Settings>())
+  , appTranslator_(std::make_unique<service::AppTranslator>(QStringList{"screentranslator"}))
   , updater_(std::make_unique<update::Updater>(QVector<QUrl>{{updatesUrl}}))
 {
   SOFT_ASSERT(settings_, return );
+
+  settings_->load();
+  appTranslator_->retranslate(settings_->uiLanguage);
 
   // updater components
   (void)QT_TRANSLATE_NOOP("QObject", "app");
@@ -53,7 +58,6 @@ Manager::Manager()
       std::make_unique<Representer>(*this, *tray_, *settings_, *models_);
   qRegisterMetaType<TaskPtr>();
 
-  settings_->load();
   updateSettings();
 
   if (settings_->showMessageOnStart)
@@ -287,12 +291,18 @@ void Manager::applySettings(const Settings &settings)
 {
   SOFT_ASSERT(settings_, return );
   const auto lastUpdate = settings_->lastUpdateCheck;  // not handled in editor
+  const auto oldLanguage = settings_->uiLanguage;
 
   *settings_ = settings;
 
   settings_->lastUpdateCheck = lastUpdate;
 
   settings_->save();
+
+  if (oldLanguage != settings_->uiLanguage && appTranslator_) {
+    appTranslator_->retranslate(settings_->uiLanguage);
+  }
+
   updateSettings();
 }
 

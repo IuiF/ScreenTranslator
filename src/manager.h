@@ -3,6 +3,10 @@
 #include "stfwd.h"
 
 class QString;
+namespace service
+{
+class AppTranslator;
+}
 
 class Manager
 {
@@ -37,6 +41,7 @@ private:
 
   std::unique_ptr<CommonModels> models_;
   std::unique_ptr<Settings> settings_;
+  std::unique_ptr<service::AppTranslator> appTranslator_;
   std::unique_ptr<TrayIcon> tray_;
   std::unique_ptr<Capturer> capturer_;
   std::unique_ptr<Recognizer> recognizer_;
