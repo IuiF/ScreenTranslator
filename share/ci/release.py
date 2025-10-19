@@ -27,7 +27,10 @@ def r(script):
 
 
 r('get_qt.py')
-r('get_qt_ssl.py')
+try:
+    r('get_qt_ssl.py')
+except subprocess.CalledProcessError:
+    print('>> OpenSSL download failed, continuing without it')
 r('get_leptonica.py')
 r('get_tesseract.py')
 
