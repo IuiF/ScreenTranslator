@@ -9,4 +9,8 @@
         <file alias="debug.png">share/images/debug.png</file>
         <file alias="debug@2x.png">share/images/debug@2x.png</file>
     </qresource>
+    <qresource prefix="/translations">
+        <file>share/translations/screentranslator_ru.qm</file>
+        <file>share/translations/screentranslator_ja.qm</file>
+    </qresource>
 </RCC>

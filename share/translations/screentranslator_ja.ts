@@ -1,1181 +1,1190 @@
-<?xml version="1.0" encoding="utf-8"?>
-<!DOCTYPE TS>
+<?xml version='1.0' encoding='utf-8'?>
 <TS version="2.1" language="ja_JP">
 <context>
     <name>CaptureAreaEditor</name>
     <message>
-        <location filename="../../src/capture/captureareaeditor.cpp" line="16"/>
+        <location filename="../../src/capture/captureareaeditor.cpp" line="16" />
         <source>Translate:</source>
-        <translation type="unfinished"></translation>
+        <translation>翻訳:</translation>
     </message>
     <message>
-        <location filename="../../src/capture/captureareaeditor.cpp" line="17"/>
+        <location filename="../../src/capture/captureareaeditor.cpp" line="17" />
         <source>Save (can capture via hotkey)</source>
-        <translation type="unfinished"></translation>
+        <translation>保存 (ホットキーでキャプチャ可能)</translation>
     </message>
     <message>
-        <location filename="../../src/capture/captureareaeditor.cpp" line="18"/>
+        <location filename="../../src/capture/captureareaeditor.cpp" line="18" />
         <source>Use auto corrections</source>
-        <translation type="unfinished"></translation>
+        <translation>自動修正を使用</translation>
     </message>
     <message>
-        <location filename="../../src/capture/captureareaeditor.cpp" line="26"/>
+        <location filename="../../src/capture/captureareaeditor.cpp" line="26" />
         <source>Recognize:</source>
-        <translation type="unfinished"></translation>
+        <translation>認識:</translation>
     </message>
     <message>
-        <location filename="../../src/capture/captureareaeditor.cpp" line="28"/>
+        <location filename="../../src/capture/captureareaeditor.cpp" line="28" />
         <source>⇵</source>
-        <translation type="unfinished"></translation>
+        <translation>⇵</translation>
     </message>
 </context>
 <context>
     <name>CaptureAreaSelector</name>
     <message>
-        <location filename="../../src/capture/captureareaselector.cpp" line="39"/>
+        <location filename="../../src/capture/captureareaselector.cpp" line="39" />
         <source>Right click on selection - customize
 Left click on selection - process
 Enter - process all selections
 Esc - cancel
 Ctrl - keep selecting</source>
-        <translation type="unfinished"></translation>
+        <translation>右クリック - カスタマイズ
+左クリック - 処理
+Enter - すべて処理
+Esc - キャンセル
+Ctrl - 選択を続ける</translation>
     </message>
     <message>
-        <location filename="../../src/capture/captureareaselector.cpp" line="46"/>
+        <location filename="../../src/capture/captureareaselector.cpp" line="46" />
         <source>Capture all</source>
-        <translation type="unfinished"></translation>
+        <translation>すべてキャプチャ</translation>
     </message>
     <message>
-        <location filename="../../src/capture/captureareaselector.cpp" line="51"/>
+        <location filename="../../src/capture/captureareaselector.cpp" line="51" />
         <source>Cancel</source>
-        <translation type="unfinished"></translation>
+        <translation>キャンセル</translation>
     </message>
 </context>
 <context>
     <name>CorrectorWorker</name>
     <message>
-        <location filename="../../src/correct/correctorworker.cpp" line="26"/>
+        <location filename="../../src/correct/correctorworker.cpp" line="26" />
         <source>Failed to init hunspell engine: %1</source>
-        <translation type="unfinished"></translation>
+        <translation>Hunspellエンジンの初期化に失敗: %1</translation>
     </message>
 </context>
 <context>
     <name>QObject</name>
     <message>
-        <location filename="../../src/capture/capturearea.cpp" line="28"/>
+        <location filename="../../src/capture/capturearea.cpp" line="28" />
         <source>No source language set</source>
-        <translation type="unfinished"></translation>
+        <translation>ソース言語が設定されていません</translation>
     </message>
     <message>
-        <location filename="../../src/capture/capturearea.cpp" line="35"/>
+        <location filename="../../src/capture/capturearea.cpp" line="35" />
         <source>No target language set</source>
-        <translation type="unfinished"></translation>
+        <translation>ターゲット言語が設定されていません</translation>
     </message>
     <message>
-        <location filename="../../src/correct/hunspellcorrector.cpp" line="72"/>
+        <location filename="../../src/correct/hunspellcorrector.cpp" line="72" />
         <source>Hunspell path not exists
 %1</source>
-        <translation type="unfinished"></translation>
+        <translation>Hunspellパスが存在しません
+%1</translation>
     </message>
     <message>
-        <location filename="../../src/correct/hunspellcorrector.cpp" line="90"/>
+        <location filename="../../src/correct/hunspellcorrector.cpp" line="90" />
         <source>No .aff or .dic files for hunspell
 in %1</source>
-        <translation type="unfinished"></translation>
+        <translation>Hunspell用の.affまたは.dicファイルがありません
+%1</translation>
     </message>
     <message>
-        <location filename="../../src/languagecodes.cpp" line="12"/>
+        <location filename="../../src/languagecodes.cpp" line="12" />
         <source>Afrikaans</source>
-        <translation type="unfinished"></translation>
+        <translation>アフリカーンス語</translation>
     </message>
     <message>
-        <location filename="../../src/languagecodes.cpp" line="14"/>
+        <location filename="../../src/languagecodes.cpp" line="14" />
         <source>Albanian</source>
-        <translation type="unfinished"></translation>
+        <translation>アルバニア語</translation>
     </message>
     <message>
-        <location filename="../../src/languagecodes.cpp" line="15"/>
+        <location filename="../../src/languagecodes.cpp" line="15" />
         <source>Amharic</source>
-        <translation type="unfinished"></translation>
+        <translation>アムハラ語</translation>
     </message>
     <message>
-        <location filename="../../src/languagecodes.cpp" line="16"/>
+        <location filename="../../src/languagecodes.cpp" line="16" />
         <source>Arabic</source>
-        <translation type="unfinished"></translation>
+        <translation>アラビア語</translation>
     </message>
     <message>
-        <location filename="../../src/languagecodes.cpp" line="18"/>
+        <location filename="../../src/languagecodes.cpp" line="18" />
         <source>Armenian</source>
-        <translation type="unfinished"></translation>
+        <translation>アルメニア語</translation>
     </message>
     <message>
-        <location filename="../../src/languagecodes.cpp" line="23"/>
+        <location filename="../../src/languagecodes.cpp" line="23" />
         <source>Azerbaijani</source>
-        <translation type="unfinished"></translation>
+        <translation>アゼルバイジャン語</translation>
     </message>
     <message>
-        <location filename="../../src/languagecodes.cpp" line="26"/>
+        <location filename="../../src/languagecodes.cpp" line="26" />
         <source>Basque</source>
-        <translation type="unfinished"></translation>
+        <translation>バスク語</translation>
     </message>
     <message>
-        <location filename="../../src/languagecodes.cpp" line="27"/>
+        <location filename="../../src/languagecodes.cpp" line="27" />
         <source>Belarusian</source>
-        <translation type="unfinished"></translation>
+        <translation>ベラルーシ語</translation>
     </message>
     <message>
-        <location filename="../../src/languagecodes.cpp" line="28"/>
+        <location filename="../../src/languagecodes.cpp" line="28" />
         <source>Bengali</source>
-        <translation type="unfinished"></translation>
+        <translation>ベンガル語</translation>
     </message>
     <message>
-        <location filename="../../src/languagecodes.cpp" line="31"/>
+        <location filename="../../src/languagecodes.cpp" line="31" />
         <source>Bosnian</source>
-        <translation type="unfinished"></translation>
+        <translation>ボスニア語</translation>
     </message>
     <message>
-        <location filename="../../src/languagecodes.cpp" line="33"/>
+        <location filename="../../src/languagecodes.cpp" line="33" />
         <source>Bulgarian</source>
-        <translation type="unfinished"></translation>
+        <translation>ブルガリア語</translation>
     </message>
     <message>
-        <location filename="../../src/languagecodes.cpp" line="34"/>
+        <location filename="../../src/languagecodes.cpp" line="34" />
         <source>Burmese</source>
-        <translation type="unfinished"></translation>
+        <translation>ミャンマー語</translation>
     </message>
     <message>
-        <location filename="../../src/languagecodes.cpp" line="35"/>
+        <location filename="../../src/languagecodes.cpp" line="35" />
         <source>Catalan</source>
-        <translation type="unfinished"></translation>
+        <translation>カタルーニャ語</translation>
     </message>
     <message>
-        <location filename="../../src/languagecodes.cpp" line="42"/>
+        <location filename="../../src/languagecodes.cpp" line="42" />
         <source>Corsican</source>
-        <translation type="unfinished"></translation>
+        <translation>コルシカ語</translation>
     </message>
     <message>
-        <location filename="../../src/languagecodes.cpp" line="44"/>
+        <location filename="../../src/languagecodes.cpp" line="44" />
         <source>Croatian</source>
-        <translation type="unfinished"></translation>
+        <translation>クロアチア語</translation>
     </message>
     <message>
-        <location filename="../../src/languagecodes.cpp" line="45"/>
+        <location filename="../../src/languagecodes.cpp" line="45" />
         <source>Czech</source>
-        <translation type="unfinished"></translation>
+        <translation>チェコ語</translation>
     </message>
     <message>
-        <location filename="../../src/languagecodes.cpp" line="46"/>
+        <location filename="../../src/languagecodes.cpp" line="46" />
         <source>Danish</source>
-        <translation type="unfinished"></translation>
+        <translation>デンマーク語</translation>
     </message>
     <message>
-        <location filename="../../src/languagecodes.cpp" line="48"/>
+        <location filename="../../src/languagecodes.cpp" line="48" />
         <source>Dutch</source>
-        <translation type="unfinished"></translation>
+        <translation>オランダ語</translation>
     </message>
     <message>
-        <location filename="../../src/languagecodes.cpp" line="50"/>
+        <location filename="../../src/languagecodes.cpp" line="50" />
         <source>English</source>
-        <translation type="unfinished"></translation>
+        <translation>英語</translation>
     </message>
     <message>
-        <location filename="../../src/languagecodes.cpp" line="51"/>
+        <location filename="../../src/languagecodes.cpp" line="51" />
         <source>Esperanto</source>
-        <translation type="unfinished"></translation>
+        <translation>エスペラント語</translation>
     </message>
     <message>
-        <location filename="../../src/languagecodes.cpp" line="52"/>
+        <location filename="../../src/languagecodes.cpp" line="52" />
         <source>Estonian</source>
-        <translation type="unfinished"></translation>
+        <translation>エストニア語</translation>
     </message>
     <message>
-        <location filename="../../src/languagecodes.cpp" line="56"/>
+        <location filename="../../src/languagecodes.cpp" line="56" />
         <source>Finnish</source>
-        <translation type="unfinished"></translation>
+        <translation>フィンランド語</translation>
     </message>
     <message>
-        <location filename="../../src/languagecodes.cpp" line="57"/>
+        <location filename="../../src/languagecodes.cpp" line="57" />
         <source>French</source>
-        <translation type="unfinished"></translation>
+        <translation>フランス語</translation>
     </message>
     <message>
-        <location filename="../../src/languagecodes.cpp" line="59"/>
+        <location filename="../../src/languagecodes.cpp" line="59" />
         <source>Galician</source>
-        <translation type="unfinished"></translation>
+        <translation>ガリシア語</translation>
     </message>
     <message>
-        <location filename="../../src/languagecodes.cpp" line="60"/>
+        <location filename="../../src/languagecodes.cpp" line="60" />
         <source>Georgian</source>
-        <translation type="unfinished"></translation>
+        <translation>ジョージア語</translation>
     </message>
     <message>
-        <location filename="../../src/languagecodes.cpp" line="61"/>
+        <location filename="../../src/languagecodes.cpp" line="61" />
         <source>German</source>
-        <translation type="unfinished"></translation>
+        <translation>ドイツ語</translation>
     </message>
     <message>
-        <location filename="../../src/languagecodes.cpp" line="62"/>
+        <location filename="../../src/languagecodes.cpp" line="62" />
         <source>Greek</source>
-        <translation type="unfinished"></translation>
+        <translation>ギリシャ語</translation>
     </message>
     <message>
-        <location filename="../../src/languagecodes.cpp" line="64"/>
+        <location filename="../../src/languagecodes.cpp" line="64" />
         <source>Gujarati</source>
-        <translation type="unfinished"></translation>
+        <translation>グジャラート語</translation>
     </message>
     <message>
-        <location filename="../../src/languagecodes.cpp" line="65"/>
+        <location filename="../../src/languagecodes.cpp" line="65" />
         <source>Haitian</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished" />
     </message>
     <message>
-        <location filename="../../src/languagecodes.cpp" line="66"/>
+        <location filename="../../src/languagecodes.cpp" line="66" />
         <source>Hausa</source>
-        <translation type="unfinished"></translation>
+        <translation>ハウサ語</translation>
     </message>
     <message>
-        <location filename="../../src/languagecodes.cpp" line="67"/>
+        <location filename="../../src/languagecodes.cpp" line="67" />
         <source>Hebrew</source>
-        <translation type="unfinished"></translation>
+        <translation>ヘブライ語</translation>
     </message>
     <message>
-        <location filename="../../src/languagecodes.cpp" line="69"/>
+        <location filename="../../src/languagecodes.cpp" line="69" />
         <source>Hindi</source>
-        <translation type="unfinished"></translation>
+        <translation>ヒンディー語</translation>
     </message>
     <message>
-        <location filename="../../src/languagecodes.cpp" line="71"/>
+        <location filename="../../src/languagecodes.cpp" line="71" />
         <source>Hungarian</source>
-        <translation type="unfinished"></translation>
+        <translation>ハンガリー語</translation>
     </message>
     <message>
-        <location filename="../../src/languagecodes.cpp" line="73"/>
+        <location filename="../../src/languagecodes.cpp" line="73" />
         <source>Indonesian</source>
-        <translation type="unfinished"></translation>
+        <translation>インドネシア語</translation>
     </message>
     <message>
-        <location filename="../../src/languagecodes.cpp" line="75"/>
+        <location filename="../../src/languagecodes.cpp" line="75" />
         <source>Irish</source>
-        <translation type="unfinished"></translation>
+        <translation>アイルランド語</translation>
     </message>
     <message>
-        <location filename="../../src/languagecodes.cpp" line="76"/>
+        <location filename="../../src/languagecodes.cpp" line="76" />
         <source>Igbo</source>
-        <translation type="unfinished"></translation>
+        <translation>イボ語</translation>
     </message>
     <message>
-        <location filename="../../src/languagecodes.cpp" line="79"/>
+        <location filename="../../src/languagecodes.cpp" line="79" />
         <source>Icelandic</source>
-        <translation type="unfinished"></translation>
+        <translation>アイスランド語</translation>
     </message>
     <message>
-        <location filename="../../src/languagecodes.cpp" line="80"/>
+        <location filename="../../src/languagecodes.cpp" line="80" />
         <source>Italian</source>
-        <translation type="unfinished"></translation>
+        <translation>イタリア語</translation>
     </message>
     <message>
-        <location filename="../../src/languagecodes.cpp" line="82"/>
+        <location filename="../../src/languagecodes.cpp" line="82" />
         <source>Japanese</source>
-        <translation type="unfinished"></translation>
+        <translation>日本語</translation>
     </message>
     <message>
-        <location filename="../../src/languagecodes.cpp" line="83"/>
+        <location filename="../../src/languagecodes.cpp" line="83" />
         <source>Japanese vertical</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished" />
     </message>
     <message>
-        <location filename="../../src/languagecodes.cpp" line="84"/>
+        <location filename="../../src/languagecodes.cpp" line="84" />
         <source>Javanese</source>
-        <translation type="unfinished"></translation>
+        <translation>ジャワ語</translation>
     </message>
     <message>
-        <location filename="../../src/languagecodes.cpp" line="86"/>
+        <location filename="../../src/languagecodes.cpp" line="86" />
         <source>Kannada</source>
-        <translation type="unfinished"></translation>
+        <translation>カンナダ語</translation>
     </message>
     <message>
-        <location filename="../../src/languagecodes.cpp" line="89"/>
+        <location filename="../../src/languagecodes.cpp" line="89" />
         <source>Kazakh</source>
-        <translation type="unfinished"></translation>
+        <translation>カザフ語</translation>
     </message>
     <message>
-        <location filename="../../src/languagecodes.cpp" line="93"/>
+        <location filename="../../src/languagecodes.cpp" line="93" />
         <source>Kyrgyz</source>
-        <translation type="unfinished"></translation>
+        <translation>キルギス語</translation>
     </message>
     <message>
-        <location filename="../../src/languagecodes.cpp" line="96"/>
+        <location filename="../../src/languagecodes.cpp" line="96" />
         <source>Korean</source>
-        <translation type="unfinished"></translation>
+        <translation>韓国語</translation>
     </message>
     <message>
-        <location filename="../../src/languagecodes.cpp" line="97"/>
+        <location filename="../../src/languagecodes.cpp" line="97" />
         <source>Korean vertical</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished" />
     </message>
     <message>
-        <location filename="../../src/languagecodes.cpp" line="98"/>
+        <location filename="../../src/languagecodes.cpp" line="98" />
         <source>Kurdish</source>
-        <translation type="unfinished"></translation>
+        <translation>クルド語</translation>
     </message>
     <message>
-        <location filename="../../src/languagecodes.cpp" line="100"/>
+        <location filename="../../src/languagecodes.cpp" line="100" />
         <source>Latin</source>
-        <translation type="unfinished"></translation>
+        <translation>ラテン語</translation>
     </message>
     <message>
-        <location filename="../../src/languagecodes.cpp" line="101"/>
+        <location filename="../../src/languagecodes.cpp" line="101" />
         <source>Luxembourgish</source>
-        <translation type="unfinished"></translation>
+        <translation>ルクセンブルク語</translation>
     </message>
     <message>
-        <location filename="../../src/languagecodes.cpp" line="105"/>
+        <location filename="../../src/languagecodes.cpp" line="105" />
         <source>Lao</source>
-        <translation type="unfinished"></translation>
+        <translation>ラオ語</translation>
     </message>
     <message>
-        <location filename="../../src/languagecodes.cpp" line="106"/>
+        <location filename="../../src/languagecodes.cpp" line="106" />
         <source>Lithuanian</source>
-        <translation type="unfinished"></translation>
+        <translation>リトアニア語</translation>
     </message>
     <message>
-        <location filename="../../src/languagecodes.cpp" line="108"/>
+        <location filename="../../src/languagecodes.cpp" line="108" />
         <source>Latvian</source>
-        <translation type="unfinished"></translation>
+        <translation>ラトビア語</translation>
     </message>
     <message>
-        <location filename="../../src/languagecodes.cpp" line="110"/>
+        <location filename="../../src/languagecodes.cpp" line="110" />
         <source>Macedonian</source>
-        <translation type="unfinished"></translation>
+        <translation>マケドニア語</translation>
     </message>
     <message>
-        <location filename="../../src/languagecodes.cpp" line="111"/>
+        <location filename="../../src/languagecodes.cpp" line="111" />
         <source>Malagasy</source>
-        <translation type="unfinished"></translation>
+        <translation>マダガスカル語</translation>
     </message>
     <message>
-        <location filename="../../src/languagecodes.cpp" line="112"/>
+        <location filename="../../src/languagecodes.cpp" line="112" />
         <source>Malay</source>
-        <translation type="unfinished"></translation>
+        <translation>マレー語</translation>
     </message>
     <message>
-        <location filename="../../src/languagecodes.cpp" line="113"/>
+        <location filename="../../src/languagecodes.cpp" line="113" />
         <source>Malayalam</source>
-        <translation type="unfinished"></translation>
+        <translation>マラヤーラム語</translation>
     </message>
     <message>
-        <location filename="../../src/languagecodes.cpp" line="114"/>
+        <location filename="../../src/languagecodes.cpp" line="114" />
         <source>Maltese</source>
-        <translation type="unfinished"></translation>
+        <translation>マルタ語</translation>
     </message>
     <message>
-        <location filename="../../src/languagecodes.cpp" line="115"/>
+        <location filename="../../src/languagecodes.cpp" line="115" />
         <source>Maori</source>
-        <translation type="unfinished"></translation>
+        <translation>マオリ語</translation>
     </message>
     <message>
-        <location filename="../../src/languagecodes.cpp" line="116"/>
+        <location filename="../../src/languagecodes.cpp" line="116" />
         <source>Marathi</source>
-        <translation type="unfinished"></translation>
+        <translation>マラーティー語</translation>
     </message>
     <message>
-        <location filename="../../src/languagecodes.cpp" line="118"/>
+        <location filename="../../src/languagecodes.cpp" line="118" />
         <source>Mongolian</source>
-        <translation type="unfinished"></translation>
+        <translation>モンゴル語</translation>
     </message>
     <message>
-        <location filename="../../src/languagecodes.cpp" line="122"/>
+        <location filename="../../src/languagecodes.cpp" line="122" />
         <source>Nepali</source>
-        <translation type="unfinished"></translation>
+        <translation>ネパール語</translation>
     </message>
     <message>
-        <location filename="../../src/languagecodes.cpp" line="126"/>
+        <location filename="../../src/languagecodes.cpp" line="126" />
         <source>Norwegian</source>
-        <translation type="unfinished"></translation>
+        <translation>ノルウェー語</translation>
     </message>
     <message>
-        <location filename="../../src/languagecodes.cpp" line="135"/>
+        <location filename="../../src/languagecodes.cpp" line="135" />
         <source>Punjabi</source>
-        <translation type="unfinished"></translation>
+        <translation>パンジャーブ語</translation>
     </message>
     <message>
-        <location filename="../../src/languagecodes.cpp" line="137"/>
+        <location filename="../../src/languagecodes.cpp" line="137" />
         <source>Persian</source>
-        <translation type="unfinished"></translation>
+        <translation>ペルシア語</translation>
     </message>
     <message>
-        <location filename="../../src/languagecodes.cpp" line="138"/>
+        <location filename="../../src/languagecodes.cpp" line="138" />
         <source>Polish</source>
-        <translation type="unfinished"></translation>
+        <translation>ポーランド語</translation>
     </message>
     <message>
-        <location filename="../../src/languagecodes.cpp" line="139"/>
+        <location filename="../../src/languagecodes.cpp" line="139" />
         <source>Pashto</source>
-        <translation type="unfinished"></translation>
+        <translation>パシュトー語</translation>
     </message>
     <message>
-        <location filename="../../src/languagecodes.cpp" line="140"/>
+        <location filename="../../src/languagecodes.cpp" line="140" />
         <source>Portuguese</source>
-        <translation type="unfinished"></translation>
+        <translation>ポルトガル語</translation>
     </message>
     <message>
-        <location filename="../../src/languagecodes.cpp" line="144"/>
+        <location filename="../../src/languagecodes.cpp" line="144" />
         <source>Romanian</source>
-        <translation type="unfinished"></translation>
+        <translation>ルーマニア語</translation>
     </message>
     <message>
-        <location filename="../../src/languagecodes.cpp" line="145"/>
+        <location filename="../../src/languagecodes.cpp" line="145" />
         <source>Russian</source>
-        <translation type="unfinished"></translation>
+        <translation>ロシア語</translation>
     </message>
     <message>
-        <location filename="../../src/languagecodes.cpp" line="148"/>
+        <location filename="../../src/languagecodes.cpp" line="148" />
         <source>Sindhi</source>
-        <translation type="unfinished"></translation>
+        <translation>シンド語</translation>
     </message>
     <message>
-        <location filename="../../src/languagecodes.cpp" line="150"/>
+        <location filename="../../src/languagecodes.cpp" line="150" />
         <source>Samoan</source>
-        <translation type="unfinished"></translation>
+        <translation>サモア語</translation>
     </message>
     <message>
-        <location filename="../../src/languagecodes.cpp" line="152"/>
+        <location filename="../../src/languagecodes.cpp" line="152" />
         <source>Serbian</source>
-        <translation type="unfinished"></translation>
+        <translation>セルビア語</translation>
     </message>
     <message>
-        <location filename="../../src/languagecodes.cpp" line="153"/>
+        <location filename="../../src/languagecodes.cpp" line="153" />
         <source>Gaelic</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished" />
     </message>
     <message>
-        <location filename="../../src/languagecodes.cpp" line="154"/>
+        <location filename="../../src/languagecodes.cpp" line="154" />
         <source>Shona</source>
-        <translation type="unfinished"></translation>
+        <translation>ショナ語</translation>
     </message>
     <message>
-        <location filename="../../src/languagecodes.cpp" line="156"/>
+        <location filename="../../src/languagecodes.cpp" line="156" />
         <source>Slovak</source>
-        <translation type="unfinished"></translation>
+        <translation>スロバキア語</translation>
     </message>
     <message>
-        <location filename="../../src/languagecodes.cpp" line="157"/>
+        <location filename="../../src/languagecodes.cpp" line="157" />
         <source>Slovenian</source>
-        <translation type="unfinished"></translation>
+        <translation>スロベニア語</translation>
     </message>
     <message>
-        <location filename="../../src/languagecodes.cpp" line="158"/>
+        <location filename="../../src/languagecodes.cpp" line="158" />
         <source>Somali</source>
-        <translation type="unfinished"></translation>
+        <translation>ソマリ語</translation>
     </message>
     <message>
-        <location filename="../../src/languagecodes.cpp" line="160"/>
+        <location filename="../../src/languagecodes.cpp" line="160" />
         <source>Spanish</source>
-        <translation type="unfinished"></translation>
+        <translation>スペイン語</translation>
     </message>
     <message>
-        <location filename="../../src/languagecodes.cpp" line="162"/>
+        <location filename="../../src/languagecodes.cpp" line="162" />
         <source>Swahili</source>
-        <translation type="unfinished"></translation>
+        <translation>スワヒリ語</translation>
     </message>
     <message>
-        <location filename="../../src/languagecodes.cpp" line="164"/>
+        <location filename="../../src/languagecodes.cpp" line="164" />
         <source>Swedish</source>
-        <translation type="unfinished"></translation>
+        <translation>スウェーデン語</translation>
     </message>
     <message>
-        <location filename="../../src/languagecodes.cpp" line="165"/>
+        <location filename="../../src/languagecodes.cpp" line="165" />
         <source>Tamil</source>
-        <translation type="unfinished"></translation>
+        <translation>タミル語</translation>
     </message>
     <message>
-        <location filename="../../src/languagecodes.cpp" line="166"/>
+        <location filename="../../src/languagecodes.cpp" line="166" />
         <source>Telugu</source>
-        <translation type="unfinished"></translation>
+        <translation>テルグ語</translation>
     </message>
     <message>
-        <location filename="../../src/languagecodes.cpp" line="167"/>
+        <location filename="../../src/languagecodes.cpp" line="167" />
         <source>Tajik</source>
-        <translation type="unfinished"></translation>
+        <translation>タジク語</translation>
     </message>
     <message>
-        <location filename="../../src/languagecodes.cpp" line="168"/>
+        <location filename="../../src/languagecodes.cpp" line="168" />
         <source>Thai</source>
-        <translation type="unfinished"></translation>
+        <translation>タイ語</translation>
     </message>
     <message>
-        <location filename="../../src/languagecodes.cpp" line="170"/>
+        <location filename="../../src/languagecodes.cpp" line="170" />
         <source>Tibetan</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished" />
     </message>
     <message>
-        <location filename="../../src/languagecodes.cpp" line="172"/>
+        <location filename="../../src/languagecodes.cpp" line="172" />
         <source>Tagalog</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished" />
     </message>
     <message>
-        <location filename="../../src/languagecodes.cpp" line="175"/>
+        <location filename="../../src/languagecodes.cpp" line="175" />
         <source>Turkish</source>
-        <translation type="unfinished"></translation>
+        <translation>トルコ語</translation>
     </message>
     <message>
-        <location filename="../../src/languagecodes.cpp" line="181"/>
+        <location filename="../../src/languagecodes.cpp" line="181" />
         <source>Ukrainian</source>
-        <translation type="unfinished"></translation>
+        <translation>ウクライナ語</translation>
     </message>
     <message>
-        <location filename="../../src/languagecodes.cpp" line="182"/>
+        <location filename="../../src/languagecodes.cpp" line="182" />
         <source>Urdu</source>
-        <translation type="unfinished"></translation>
+        <translation>ウルドゥー語</translation>
     </message>
     <message>
-        <location filename="../../src/languagecodes.cpp" line="183"/>
+        <location filename="../../src/languagecodes.cpp" line="183" />
         <source>Uzbek</source>
-        <translation type="unfinished"></translation>
+        <translation>ウズベク語</translation>
     </message>
     <message>
-        <location filename="../../src/languagecodes.cpp" line="185"/>
+        <location filename="../../src/languagecodes.cpp" line="185" />
         <source>Vietnamese</source>
-        <translation type="unfinished"></translation>
+        <translation>ベトナム語</translation>
     </message>
     <message>
-        <location filename="../../src/languagecodes.cpp" line="188"/>
+        <location filename="../../src/languagecodes.cpp" line="188" />
         <source>Welsh</source>
-        <translation type="unfinished"></translation>
+        <translation>ウェールズ語</translation>
     </message>
     <message>
-        <location filename="../../src/languagecodes.cpp" line="192"/>
+        <location filename="../../src/languagecodes.cpp" line="192" />
         <source>Yiddish</source>
-        <translation type="unfinished"></translation>
+        <translation>イディッシュ語</translation>
     </message>
     <message>
-        <location filename="../../src/languagecodes.cpp" line="193"/>
+        <location filename="../../src/languagecodes.cpp" line="193" />
         <source>Yoruba</source>
-        <translation type="unfinished"></translation>
+        <translation>ヨルバ語</translation>
     </message>
     <message>
-        <location filename="../../src/languagecodes.cpp" line="195"/>
+        <location filename="../../src/languagecodes.cpp" line="195" />
         <source>Zulu</source>
-        <translation type="unfinished"></translation>
+        <translation>ズールー語</translation>
     </message>
     <message>
-        <location filename="../../src/languagecodes.cpp" line="197"/>
+        <location filename="../../src/languagecodes.cpp" line="197" />
         <source>Chinese (Simplified)</source>
-        <translation type="unfinished"></translation>
+        <translation>中国語 (簡体字)</translation>
     </message>
     <message>
-        <location filename="../../src/languagecodes.cpp" line="198"/>
+        <location filename="../../src/languagecodes.cpp" line="198" />
         <source>Chinese (Simplified) vertical</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished" />
     </message>
     <message>
-        <location filename="../../src/languagecodes.cpp" line="199"/>
+        <location filename="../../src/languagecodes.cpp" line="199" />
         <source>Chinese (Traditional)</source>
-        <translation type="unfinished"></translation>
+        <translation>中国語 (繁体字)</translation>
     </message>
     <message>
-        <location filename="../../src/languagecodes.cpp" line="200"/>
+        <location filename="../../src/languagecodes.cpp" line="200" />
         <source>Chinese (Traditional) vertical</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished" />
     </message>
     <message>
-        <location filename="../../src/languagecodes.cpp" line="201"/>
+        <location filename="../../src/languagecodes.cpp" line="201" />
         <source>Filipino</source>
-        <translation type="unfinished"></translation>
+        <translation>フィリピン語</translation>
     </message>
     <message>
-        <location filename="../../src/languagecodes.cpp" line="202"/>
+        <location filename="../../src/languagecodes.cpp" line="202" />
         <source>Cherokee</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished" />
     </message>
     <message>
-        <location filename="../../src/languagecodes.cpp" line="203"/>
+        <location filename="../../src/languagecodes.cpp" line="203" />
         <source>Cebuano</source>
-        <translation type="unfinished"></translation>
+        <translation>セブアノ語</translation>
     </message>
     <message>
-        <location filename="../../src/languagecodes.cpp" line="204"/>
+        <location filename="../../src/languagecodes.cpp" line="204" />
         <source>Syriac</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished" />
     </message>
     <message>
-        <location filename="../../src/languagecodes.cpp" line="205"/>
+        <location filename="../../src/languagecodes.cpp" line="205" />
         <source>English, Middle (1100-1500)</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished" />
     </message>
     <message>
-        <location filename="../../src/languagecodes.cpp" line="206"/>
+        <location filename="../../src/languagecodes.cpp" line="206" />
         <source>French, Middle (ca.1400-1600)</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished" />
     </message>
     <message>
-        <location filename="../../src/languagecodes.cpp" line="207"/>
+        <location filename="../../src/languagecodes.cpp" line="207" />
         <source>Greek, Ancient (to 1453)</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished" />
     </message>
     <message>
-        <location filename="../../src/languagecodes.cpp" line="208"/>
+        <location filename="../../src/languagecodes.cpp" line="208" />
         <source>Any</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished" />
     </message>
     <message>
-        <location filename="../../src/main.cpp" line="30"/>
+        <location filename="../../src/main.cpp" line="30" />
         <source>OCR and translation tool</source>
-        <translation type="unfinished"></translation>
+        <translation>OCR・翻訳ツール</translation>
     </message>
     <message>
-        <location filename="../../src/manager.cpp" line="42"/>
+        <location filename="../../src/manager.cpp" line="42" />
         <source>app</source>
-        <translation type="unfinished"></translation>
+        <translation>アプリ</translation>
     </message>
     <message>
-        <location filename="../../src/manager.cpp" line="43"/>
+        <location filename="../../src/manager.cpp" line="43" />
         <source>recognizers</source>
-        <translation type="unfinished"></translation>
+        <translation>認識エンジン</translation>
     </message>
     <message>
-        <location filename="../../src/manager.cpp" line="44"/>
+        <location filename="../../src/manager.cpp" line="44" />
         <source>correction</source>
-        <translation type="unfinished"></translation>
+        <translation>修正</translation>
     </message>
     <message>
-        <location filename="../../src/manager.cpp" line="45"/>
+        <location filename="../../src/manager.cpp" line="45" />
         <source>translators</source>
-        <translation type="unfinished"></translation>
+        <translation>翻訳サービス</translation>
     </message>
     <message>
-        <location filename="../../src/manager.cpp" line="60"/>
+        <location filename="../../src/manager.cpp" line="60" />
         <source>Screen translator started</source>
-        <translation type="unfinished"></translation>
+        <translation>Screen Translatorが起動しました</translation>
     </message>
     <message>
-        <location filename="../../src/manager.cpp" line="68"/>
+        <location filename="../../src/manager.cpp" line="68" />
         <source>Updates available</source>
-        <translation type="unfinished"></translation>
+        <translation>更新が利用可能です</translation>
     </message>
     <message>
-        <location filename="../../src/manager.cpp" line="96"/>
+        <location filename="../../src/manager.cpp" line="96" />
         <source>Current version might be outdated.
 Check for updates to silence this warning</source>
-        <translation type="unfinished"></translation>
+        <translation>現在のバージョンが古い可能性があります。
+この警告を消すには更新を確認してください</translation>
     </message>
     <message>
-        <location filename="../../src/manager.cpp" line="129"/>
+        <location filename="../../src/manager.cpp" line="129" />
         <source>Incorrect settings found. Go to Settings</source>
-        <translation type="unfinished"></translation>
+        <translation>不正な設定が見つかりました。設定を確認してください</translation>
     </message>
     <message>
-        <location filename="../../src/manager.cpp" line="194"/>
+        <location filename="../../src/manager.cpp" line="194" />
         <source>Failed to set log file: %1</source>
-        <translation type="unfinished"></translation>
+        <translation>ログファイルの設定に失敗: %1</translation>
     </message>
     <message>
-        <location filename="../../src/manager.cpp" line="200"/>
+        <location filename="../../src/manager.cpp" line="200" />
         <source>Started logging to file: %1</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished" />
     </message>
     <message>
-        <location filename="../../src/ocr/tesseract.cpp" line="261"/>
+        <location filename="../../src/ocr/tesseract.cpp" line="261" />
         <source>init failed</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished" />
     </message>
     <message>
-        <location filename="../../src/ocr/tesseract.cpp" line="352"/>
+        <location filename="../../src/ocr/tesseract.cpp" line="352" />
         <source>Failed to recognize text or no text selected</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished" />
     </message>
     <message>
-        <location filename="../../src/represent/representer.cpp" line="57"/>
+        <location filename="../../src/represent/representer.cpp" line="57" />
         <source>The last result was copied to the clipboard.</source>
-        <translation type="unfinished"></translation>
+        <translation>最後の結果がクリップボードにコピーされました。</translation>
     </message>
     <message>
-        <location filename="../../src/service/singleapplication.cpp" line="27"/>
+        <location filename="../../src/service/singleapplication.cpp" line="27" />
         <source>Another instance is running. Lock file is busy.</source>
-        <translation type="unfinished"></translation>
+        <translation>別のインスタンスが実行中です。ロックファイルがビジー状態です。</translation>
     </message>
     <message>
-        <location filename="../../src/service/widgetstate.cpp" line="110"/>
+        <location filename="../../src/service/widgetstate.cpp" line="110" />
         <source>Do not restore user interface (window size and position, etc)</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished" />
     </message>
     <message>
-        <location filename="../../src/settingseditor.cpp" line="199"/>
+        <location filename="../../src/settingseditor.cpp" line="199" />
         <source>&lt;p&gt;Optical character recognition (OCR) and translation tool&lt;/p&gt;</source>
-        <translation type="unfinished"></translation>
+        <translation>&lt;p&gt;光学文字認識 (OCR) および翻訳ツール&lt;/p&gt;</translation>
     </message>
     <message>
-        <location filename="../../src/settingseditor.cpp" line="201"/>
+        <location filename="../../src/settingseditor.cpp" line="201" />
         <source>&lt;p&gt;Version: %1&lt;/p&gt;</source>
-        <translation type="unfinished"></translation>
+        <translation>&lt;p&gt;バージョン: %1&lt;/p&gt;</translation>
     </message>
     <message>
-        <location filename="../../src/settingseditor.cpp" line="203"/>
-        <source>&lt;p&gt;Setup instructions: &lt;a href=&quot;%1&quot;&gt;%1&lt;/a&gt;&lt;/p&gt;</source>
-        <translation type="unfinished"></translation>
+        <location filename="../../src/settingseditor.cpp" line="203" />
+        <source>&lt;p&gt;Setup instructions: &lt;a href="%1"&gt;%1&lt;/a&gt;&lt;/p&gt;</source>
+        <translation>&lt;p&gt;セットアップ手順: &lt;a href="%1"&gt;%1&lt;/a&gt;&lt;/p&gt;</translation>
     </message>
     <message>
-        <location filename="../../src/settingseditor.cpp" line="205"/>
-        <source>&lt;p&gt;Changelog: &lt;a href=&quot;%1&quot;&gt;%2&lt;/a&gt;&lt;/p&gt;</source>
-        <translation type="unfinished"></translation>
+        <location filename="../../src/settingseditor.cpp" line="205" />
+        <source>&lt;p&gt;Changelog: &lt;a href="%1"&gt;%2&lt;/a&gt;&lt;/p&gt;</source>
+        <translation>&lt;p&gt;変更履歴: &lt;a href="%1"&gt;%2&lt;/a&gt;&lt;/p&gt;</translation>
     </message>
     <message>
-        <location filename="../../src/settingseditor.cpp" line="207"/>
-        <source>&lt;p&gt;License: &lt;a href=&quot;%3&quot;&gt;MIT&lt;/a&gt;&lt;/p&gt;</source>
-        <translation type="unfinished"></translation>
+        <location filename="../../src/settingseditor.cpp" line="207" />
+        <source>&lt;p&gt;License: &lt;a href="%3"&gt;MIT&lt;/a&gt;&lt;/p&gt;</source>
+        <translation>&lt;p&gt;ライセンス: &lt;a href="%3"&gt;MIT&lt;/a&gt;&lt;/p&gt;</translation>
     </message>
     <message>
-        <location filename="../../src/settingseditor.cpp" line="208"/>
-        <source>&lt;p&gt;Author: Gres (&lt;a href=&quot;mailto:%1&quot;&gt;%1&lt;/a&gt;)&lt;/p&gt;</source>
-        <translation type="unfinished"></translation>
+        <location filename="../../src/settingseditor.cpp" line="208" />
+        <source>&lt;p&gt;Author: Gres (&lt;a href="mailto:%1"&gt;%1&lt;/a&gt;)&lt;/p&gt;</source>
+        <translation>&lt;p&gt;作者: Gres (&lt;a href="mailto:%1"&gt;%1&lt;/a&gt;)&lt;/p&gt;</translation>
     </message>
     <message>
-        <location filename="../../src/settingseditor.cpp" line="210"/>
-        <source>&lt;p&gt;Issues: &lt;a href=&quot;%1&quot;&gt;%1&lt;/a&gt;&lt;/p&gt;</source>
-        <translation type="unfinished"></translation>
+        <location filename="../../src/settingseditor.cpp" line="210" />
+        <source>&lt;p&gt;Issues: &lt;a href="%1"&gt;%1&lt;/a&gt;&lt;/p&gt;</source>
+        <translation>&lt;p&gt;課題: &lt;a href="%1"&gt;%1&lt;/a&gt;&lt;/p&gt;</translation>
     </message>
     <message>
-        <location filename="../../src/settingsvalidator.cpp" line="45"/>
+        <location filename="../../src/settingsvalidator.cpp" line="45" />
         <source>No recognizers installed</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished" />
     </message>
     <message>
-        <location filename="../../src/settingsvalidator.cpp" line="47"/>
+        <location filename="../../src/settingsvalidator.cpp" line="47" />
         <source>Recognition language not set</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished" />
     </message>
     <message>
-        <location filename="../../src/settingsvalidator.cpp" line="50"/>
+        <location filename="../../src/settingsvalidator.cpp" line="50" />
         <source>No translators installed</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished" />
     </message>
     <message>
-        <location filename="../../src/settingsvalidator.cpp" line="53"/>
+        <location filename="../../src/settingsvalidator.cpp" line="53" />
         <source>No translators enabled (selected)</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished" />
     </message>
     <message>
-        <location filename="../../src/settingsvalidator.cpp" line="55"/>
+        <location filename="../../src/settingsvalidator.cpp" line="55" />
         <source>Translation language not set</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished" />
     </message>
     <message>
-        <location filename="../../src/translate/webpage.cpp" line="115"/>
+        <location filename="../../src/translate/webpage.cpp" line="115" />
         <source>unknown translation languages: %1 or %2</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished" />
     </message>
 </context>
 <context>
     <name>RecognizeWorker</name>
     <message>
-        <location filename="../../src/ocr/recognizerworker.cpp" line="24"/>
+        <location filename="../../src/ocr/recognizerworker.cpp" line="24" />
         <source>Failed to init OCR engine: %1</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished" />
     </message>
 </context>
 <context>
     <name>Recognizer</name>
     <message>
-        <location filename="../../src/ocr/recognizer.cpp" line="36"/>
+        <location filename="../../src/ocr/recognizer.cpp" line="36" />
         <source>No source language set. Check settings</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished" />
     </message>
 </context>
 <context>
     <name>ResultEditor</name>
     <message>
-        <location filename="../../src/represent/resulteditor.cpp" line="24"/>
+        <location filename="../../src/represent/resulteditor.cpp" line="24" />
         <source>Recognize</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished" />
     </message>
     <message>
-        <location filename="../../src/represent/resulteditor.cpp" line="25"/>
+        <location filename="../../src/represent/resulteditor.cpp" line="25" />
         <source>Recognize and translate</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished" />
     </message>
     <message>
-        <location filename="../../src/represent/resulteditor.cpp" line="26"/>
+        <location filename="../../src/represent/resulteditor.cpp" line="26" />
         <source>Translate</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished" />
     </message>
     <message>
-        <location filename="../../src/represent/resulteditor.cpp" line="45"/>
+        <location filename="../../src/represent/resulteditor.cpp" line="45" />
         <source>Recognize:</source>
-        <translation type="unfinished"></translation>
+        <translation>認識:</translation>
     </message>
     <message>
-        <location filename="../../src/represent/resulteditor.cpp" line="49"/>
+        <location filename="../../src/represent/resulteditor.cpp" line="49" />
         <source>Translate:</source>
-        <translation type="unfinished"></translation>
+        <translation>翻訳:</translation>
     </message>
 </context>
 <context>
     <name>ResultWidget</name>
     <message>
-        <location filename="../../src/represent/resultwidget.cpp" line="45"/>
+        <location filename="../../src/represent/resultwidget.cpp" line="45" />
         <source>Copy text</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished" />
     </message>
     <message>
-        <location filename="../../src/represent/resultwidget.cpp" line="48"/>
+        <location filename="../../src/represent/resultwidget.cpp" line="48" />
         <source>Copy image</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished" />
     </message>
     <message>
-        <location filename="../../src/represent/resultwidget.cpp" line="51"/>
+        <location filename="../../src/represent/resultwidget.cpp" line="51" />
         <source>Edit...</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished" />
     </message>
     <message>
-        <location filename="../../src/represent/resultwidget.cpp" line="57"/>
+        <location filename="../../src/represent/resultwidget.cpp" line="57" />
         <source>New capture</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished" />
     </message>
     <message>
-        <location filename="../../src/represent/resultwidget.cpp" line="60"/>
+        <location filename="../../src/represent/resultwidget.cpp" line="60" />
         <source>Repeat capture</source>
-        <translation type="unfinished"></translation>
+        <translation>繰り返しキャプチャ</translation>
     </message>
     <message>
-        <location filename="../../src/represent/resultwidget.cpp" line="95"/>
+        <location filename="../../src/represent/resultwidget.cpp" line="95" />
         <source>Without correction:
 </source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished" />
     </message>
 </context>
 <context>
     <name>SettingsEditor</name>
     <message>
-        <location filename="../../src/settingseditor.ui" line="14"/>
+        <location filename="../../src/settingseditor.ui" line="14" />
         <source>Settings</source>
-        <translation type="unfinished"></translation>
+        <translation>設定</translation>
     </message>
     <message>
-        <location filename="../../src/settingseditor.ui" line="120"/>
+        <location filename="../../src/settingseditor.ui" line="120" />
         <source>User Interface</source>
-        <translation type="unfinished"></translation>
+        <translation>ユーザーインターフェース</translation>
     </message>
     <message>
-        <location filename="../../src/settingseditor.ui" line="126"/>
-        <location filename="../../src/settingseditor.ui" line="477"/>
+        <location filename="../../src/settingseditor.ui" line="126" />
+        <location filename="../../src/settingseditor.ui" line="477" />
         <source>Language:</source>
-        <translation type="unfinished"></translation>
+        <translation>言語:</translation>
     </message>
     <message>
-        <location filename="../../src/settingseditor.ui" line="139"/>
+        <location filename="../../src/settingseditor.ui" line="139" />
         <source>Proxy</source>
-        <translation type="unfinished"></translation>
+        <translation>プロキシ</translation>
     </message>
     <message>
-        <location filename="../../src/settingseditor.ui" line="145"/>
+        <location filename="../../src/settingseditor.ui" line="145" />
         <source>Type:</source>
-        <translation type="unfinished"></translation>
+        <translation>種類:</translation>
     </message>
     <message>
-        <location filename="../../src/settingseditor.ui" line="155"/>
+        <location filename="../../src/settingseditor.ui" line="155" />
         <source>User:</source>
-        <translation type="unfinished"></translation>
+        <translation>ユーザー:</translation>
     </message>
     <message>
-        <location filename="../../src/settingseditor.ui" line="165"/>
+        <location filename="../../src/settingseditor.ui" line="165" />
         <source>Address:</source>
-        <translation type="unfinished"></translation>
+        <translation>アドレス:</translation>
     </message>
     <message>
-        <location filename="../../src/settingseditor.ui" line="175"/>
+        <location filename="../../src/settingseditor.ui" line="175" />
         <source>Password:</source>
-        <translation type="unfinished"></translation>
+        <translation>パスワード:</translation>
     </message>
     <message>
-        <location filename="../../src/settingseditor.ui" line="185"/>
+        <location filename="../../src/settingseditor.ui" line="185" />
         <source>Port:</source>
-        <translation type="unfinished"></translation>
+        <translation>ポート:</translation>
     </message>
     <message>
-        <location filename="../../src/settingseditor.ui" line="202"/>
+        <location filename="../../src/settingseditor.ui" line="202" />
         <source>save password (unsafe)</source>
-        <translation type="unfinished"></translation>
+        <translation>パスワードを保存 (安全でない)</translation>
     </message>
     <message>
-        <location filename="../../src/settingseditor.ui" line="225"/>
+        <location filename="../../src/settingseditor.ui" line="225" />
         <source>Write trace file</source>
-        <translation type="unfinished"></translation>
+        <translation>トレースファイルを書き込む</translation>
     </message>
     <message>
-        <location filename="../../src/settingseditor.ui" line="232"/>
+        <location filename="../../src/settingseditor.ui" line="232" />
         <source>Run at system start</source>
-        <translation type="unfinished"></translation>
+        <translation>システム起動時に実行</translation>
     </message>
     <message>
-        <location filename="../../src/settingseditor.ui" line="239"/>
+        <location filename="../../src/settingseditor.ui" line="239" />
         <source>Shortcuts</source>
-        <translation type="unfinished"></translation>
+        <translation>ショートカット</translation>
     </message>
     <message>
-        <location filename="../../src/settingseditor.ui" line="248"/>
+        <location filename="../../src/settingseditor.ui" line="248" />
         <source>Repeat capture</source>
-        <translation type="unfinished"></translation>
+        <translation>繰り返しキャプチャ</translation>
     </message>
     <message>
-        <location filename="../../src/settingseditor.ui" line="258"/>
+        <location filename="../../src/settingseditor.ui" line="258" />
         <source>Show last result</source>
-        <translation type="unfinished"></translation>
+        <translation>最後の結果を表示</translation>
     </message>
     <message>
-        <location filename="../../src/settingseditor.ui" line="268"/>
+        <location filename="../../src/settingseditor.ui" line="268" />
         <source>Copy result to clipboard</source>
-        <translation type="unfinished"></translation>
+        <translation>結果をクリップボードにコピー</translation>
     </message>
     <message>
-        <location filename="../../src/settingseditor.ui" line="278"/>
+        <location filename="../../src/settingseditor.ui" line="278" />
         <source>Capture</source>
-        <translation type="unfinished"></translation>
+        <translation>キャプチャ</translation>
     </message>
     <message>
-        <location filename="../../src/settingseditor.ui" line="285"/>
+        <location filename="../../src/settingseditor.ui" line="285" />
         <source>Capture saved areas</source>
-        <translation type="unfinished"></translation>
+        <translation>保存エリアをキャプチャ</translation>
     </message>
     <message>
-        <location filename="../../src/settingseditor.ui" line="298"/>
+        <location filename="../../src/settingseditor.ui" line="298" />
         <source>Show message on program start</source>
-        <translation type="unfinished"></translation>
+        <translation>プログラム起動時にメッセージを表示</translation>
     </message>
     <message>
-        <location filename="../../src/settingseditor.ui" line="305"/>
+        <location filename="../../src/settingseditor.ui" line="305" />
         <source>Portable (store data in same folder)</source>
-        <translation type="unfinished"></translation>
+        <translation>ポータブル (データを同じフォルダに保存)</translation>
     </message>
     <message>
-        <location filename="../../src/settingseditor.ui" line="322"/>
+        <location filename="../../src/settingseditor.ui" line="322" />
         <source>Tessdata path:</source>
-        <translation type="unfinished"></translation>
+        <translation>Tessdataパス:</translation>
     </message>
     <message>
-        <location filename="../../src/settingseditor.ui" line="364"/>
+        <location filename="../../src/settingseditor.ui" line="364" />
         <source>Default language:</source>
-        <translation type="unfinished"></translation>
+        <translation>デフォルト言語:</translation>
     </message>
     <message>
-        <location filename="../../src/settingseditor.ui" line="378"/>
+        <location filename="../../src/settingseditor.ui" line="378" />
         <source>User substitutions</source>
-        <translation type="unfinished"></translation>
+        <translation>ユーザー置換</translation>
     </message>
     <message>
-        <location filename="../../src/settingseditor.ui" line="388"/>
+        <location filename="../../src/settingseditor.ui" line="388" />
         <source>\\ for \ symbol, \n for newline</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished" />
     </message>
     <message>
-        <location filename="../../src/settingseditor.ui" line="401"/>
+        <location filename="../../src/settingseditor.ui" line="401" />
         <source>Use auto corrections (hunspell)</source>
-        <translation type="unfinished"></translation>
+        <translation>自動修正を使用 (hunspell)</translation>
     </message>
     <message>
-        <location filename="../../src/settingseditor.ui" line="408"/>
+        <location filename="../../src/settingseditor.ui" line="408" />
         <source>Use user substitutions</source>
-        <translation type="unfinished"></translation>
+        <translation>ユーザー置換を使用</translation>
     </message>
     <message>
-        <location filename="../../src/settingseditor.ui" line="415"/>
+        <location filename="../../src/settingseditor.ui" line="415" />
         <source>Hunspell dictionaries path:</source>
-        <translation type="unfinished"></translation>
+        <translation>Hunspell辞書パス:</translation>
     </message>
     <message>
-        <location filename="../../src/settingseditor.ui" line="436"/>
+        <location filename="../../src/settingseditor.ui" line="436" />
         <source>Translators path:</source>
-        <translation type="unfinished"></translation>
+        <translation>翻訳サービスパス:</translation>
     </message>
     <message>
-        <location filename="../../src/settingseditor.ui" line="443"/>
+        <location filename="../../src/settingseditor.ui" line="443" />
         <source>Translators</source>
-        <translation type="unfinished"></translation>
+        <translation>翻訳サービス</translation>
     </message>
     <message>
-        <location filename="../../src/settingseditor.ui" line="453"/>
+        <location filename="../../src/settingseditor.ui" line="453" />
         <source>Ignore SSL errors</source>
-        <translation type="unfinished"></translation>
+        <translation>SSLエラーを無視</translation>
     </message>
     <message>
-        <location filename="../../src/settingseditor.ui" line="463"/>
+        <location filename="../../src/settingseditor.ui" line="463" />
         <source>Translate text</source>
-        <translation type="unfinished"></translation>
+        <translation>テキストを翻訳</translation>
     </message>
     <message>
-        <location filename="../../src/settingseditor.ui" line="470"/>
+        <location filename="../../src/settingseditor.ui" line="470" />
         <source>Single translator timeout:</source>
-        <translation type="unfinished"></translation>
+        <translation>単一翻訳サービスのタイムアウト:</translation>
     </message>
     <message>
-        <location filename="../../src/settingseditor.ui" line="513"/>
+        <location filename="../../src/settingseditor.ui" line="513" />
         <source> secs</source>
-        <translation type="unfinished"></translation>
+        <translation> 秒</translation>
     </message>
     <message>
-        <location filename="../../src/settingseditor.ui" line="540"/>
+        <location filename="../../src/settingseditor.ui" line="540" />
         <source>Result type</source>
-        <translation type="unfinished"></translation>
+        <translation>結果の種類</translation>
     </message>
     <message>
-        <location filename="../../src/settingseditor.ui" line="552"/>
+        <location filename="../../src/settingseditor.ui" line="552" />
         <source>Tray</source>
-        <translation type="unfinished"></translation>
+        <translation>トレイ</translation>
     </message>
     <message>
-        <location filename="../../src/settingseditor.ui" line="565"/>
+        <location filename="../../src/settingseditor.ui" line="565" />
         <source>Window</source>
-        <translation type="unfinished"></translation>
+        <translation>ウィンドウ</translation>
     </message>
     <message>
-        <location filename="../../src/settingseditor.ui" line="578"/>
+        <location filename="../../src/settingseditor.ui" line="578" />
         <source>Result window</source>
-        <translation type="unfinished"></translation>
+        <translation>結果ウィンドウ</translation>
     </message>
     <message>
-        <location filename="../../src/settingseditor.ui" line="584"/>
+        <location filename="../../src/settingseditor.ui" line="584" />
         <source>Font:</source>
-        <translation type="unfinished"></translation>
+        <translation>フォント:</translation>
     </message>
     <message>
-        <location filename="../../src/settingseditor.ui" line="594"/>
+        <location filename="../../src/settingseditor.ui" line="594" />
         <source>Font size:</source>
-        <translation type="unfinished"></translation>
+        <translation>フォントサイズ:</translation>
     </message>
     <message>
-        <location filename="../../src/settingseditor.ui" line="611"/>
+        <location filename="../../src/settingseditor.ui" line="611" />
         <source>Font color:</source>
-        <translation type="unfinished"></translation>
+        <translation>フォントカラー:</translation>
     </message>
     <message>
-        <location filename="../../src/settingseditor.ui" line="625"/>
+        <location filename="../../src/settingseditor.ui" line="625" />
         <source>Background:</source>
-        <translation type="unfinished"></translation>
+        <translation>背景:</translation>
     </message>
     <message>
-        <location filename="../../src/settingseditor.ui" line="639"/>
+        <location filename="../../src/settingseditor.ui" line="639" />
         <source>Show image</source>
-        <translation type="unfinished"></translation>
+        <translation>画像を表示</translation>
     </message>
     <message>
-        <location filename="../../src/settingseditor.ui" line="646"/>
+        <location filename="../../src/settingseditor.ui" line="646" />
         <source>Show recognized</source>
-        <translation type="unfinished"></translation>
+        <translation>認識結果を表示</translation>
     </message>
     <message>
-        <location filename="../../src/settingseditor.ui" line="696"/>
+        <location filename="../../src/settingseditor.ui" line="696" />
         <source>Update check interval (days):</source>
-        <translation type="unfinished"></translation>
+        <translation>更新確認間隔 (日):</translation>
     </message>
     <message>
-        <location filename="../../src/settingseditor.ui" line="703"/>
+        <location filename="../../src/settingseditor.ui" line="703" />
         <source>0 - disabled</source>
-        <translation type="unfinished"></translation>
+        <translation>0 - 無効</translation>
     </message>
     <message>
-        <location filename="../../src/settingseditor.ui" line="719"/>
+        <location filename="../../src/settingseditor.ui" line="719" />
         <source>Check now</source>
-        <translation type="unfinished"></translation>
+        <translation>今すぐ確認</translation>
     </message>
     <message>
-        <location filename="../../src/settingseditor.cpp" line="63"/>
+        <location filename="../../src/settingseditor.cpp" line="63" />
         <source>General</source>
-        <translation type="unfinished"></translation>
+        <translation>全般</translation>
     </message>
     <message>
-        <location filename="../../src/settingseditor.cpp" line="63"/>
+        <location filename="../../src/settingseditor.cpp" line="63" />
         <source>This page contains general program settings</source>
-        <translation type="unfinished"></translation>
+        <translation>このページにはプログラムの全般設定が含まれます</translation>
     </message>
     <message>
-        <location filename="../../src/settingseditor.cpp" line="66"/>
+        <location filename="../../src/settingseditor.cpp" line="66" />
         <source>Recognition</source>
-        <translation type="unfinished"></translation>
+        <translation>認識</translation>
     </message>
     <message>
-        <location filename="../../src/settingseditor.cpp" line="67"/>
+        <location filename="../../src/settingseditor.cpp" line="67" />
         <source>This page contains text recognition settings. It shows the available languages that program can convert from image to text</source>
-        <translation type="unfinished"></translation>
+        <translation>このページにはテキスト認識設定が含まれます。画像からテキストに変換できる利用可能な言語を表示します</translation>
     </message>
     <message>
-        <location filename="../../src/settingseditor.cpp" line="72"/>
+        <location filename="../../src/settingseditor.cpp" line="72" />
         <source>Correction</source>
-        <translation type="unfinished"></translation>
+        <translation>修正</translation>
     </message>
     <message>
-        <location filename="../../src/settingseditor.cpp" line="73"/>
+        <location filename="../../src/settingseditor.cpp" line="73" />
         <source>This page contains recognized text correction settings. It allows to fix some errors after recognition.
 Hunspell searches for words that are similar to recognized ones in its dictionary.
 User correction allows to manually fix some frequently happening mistakes.
 User correction occurs before hunspell correction if both are enabled</source>
-        <translation type="unfinished"></translation>
+        <translation>このページには認識テキストの修正設定が含まれます。認識後の一部のエラーを修正できます。
+Hunspellは辞書内で認識された単語と類似する単語を検索します。
+ユーザー修正では頻繁に発生するミスを手動で修正できます。
+両方が有効な場合、ユーザー修正はHunspell修正の前に実行されます</translation>
     </message>
     <message>
-        <location filename="../../src/settingseditor.cpp" line="83"/>
+        <location filename="../../src/settingseditor.cpp" line="83" />
         <source>Translation</source>
-        <translation type="unfinished"></translation>
+        <translation>翻訳</translation>
     </message>
     <message>
-        <location filename="../../src/settingseditor.cpp" line="84"/>
+        <location filename="../../src/settingseditor.cpp" line="84" />
         <source>This page contains settings, related to translation of the recognized text. Translation is done via enabled (checked) translation services. If one fails, then second one will be used and so on. If translator hangs it will be treated as failed after given timeout</source>
-        <translation type="unfinished"></translation>
+        <translation>このページには認識テキストの翻訳に関する設定が含まれます。翻訳は有効化（チェック）された翻訳サービスを通じて行われます。1つが失敗した場合、2つ目が使用されます。翻訳サービスがハングした場合、指定されたタイムアウト後に失敗として扱われます</translation>
     </message>
     <message>
-        <location filename="../../src/settingseditor.cpp" line="92"/>
+        <location filename="../../src/settingseditor.cpp" line="92" />
         <source>Representation</source>
-        <translation type="unfinished"></translation>
+        <translation>表示</translation>
     </message>
     <message>
-        <location filename="../../src/settingseditor.cpp" line="93"/>
+        <location filename="../../src/settingseditor.cpp" line="93" />
         <source>This page contains result representation settings</source>
-        <translation type="unfinished"></translation>
+        <translation>このページには結果の表示設定が含まれます</translation>
     </message>
     <message>
-        <location filename="../../src/settingseditor.cpp" line="96"/>
+        <location filename="../../src/settingseditor.cpp" line="96" />
         <source>Update</source>
-        <translation type="unfinished"></translation>
+        <translation>更新</translation>
     </message>
     <message>
-        <location filename="../../src/settingseditor.cpp" line="97"/>
+        <location filename="../../src/settingseditor.cpp" line="97" />
         <source>This page allow to install/update/remove program resources</source>
-        <translation type="unfinished"></translation>
+        <translation>このページではプログラムリソースのインストール/更新/削除ができます</translation>
     </message>
     <message>
-        <location filename="../../src/settingseditor.cpp" line="99"/>
+        <location filename="../../src/settingseditor.cpp" line="99" />
         <source>Help</source>
-        <translation type="unfinished"></translation>
+        <translation>ヘルプ</translation>
     </message>
     <message>
-        <location filename="../../src/settingseditor.cpp" line="119"/>
+        <location filename="../../src/settingseditor.cpp" line="119" />
         <source>Disabled</source>
-        <translation type="unfinished"></translation>
+        <translation>無効</translation>
     </message>
     <message>
-        <location filename="../../src/settingseditor.cpp" line="120"/>
+        <location filename="../../src/settingseditor.cpp" line="120" />
         <source>System</source>
-        <translation type="unfinished"></translation>
+        <translation>システム</translation>
     </message>
     <message>
-        <location filename="../../src/settingseditor.cpp" line="121"/>
+        <location filename="../../src/settingseditor.cpp" line="121" />
         <source>SOCKS 5</source>
-        <translation type="unfinished"></translation>
+        <translation>SOCKS 5</translation>
     </message>
     <message>
-        <location filename="../../src/settingseditor.cpp" line="122"/>
+        <location filename="../../src/settingseditor.cpp" line="122" />
         <source>HTTP</source>
-        <translation type="unfinished"></translation>
+        <translation>HTTP</translation>
     </message>
     <message>
-        <location filename="../../src/settingseditor.cpp" line="145"/>
-        <source>&lt;b&gt;NOTE! Some translators might require the translation window to be visible. You can make it using the &quot;Show translator&quot; entry in the tray icon&apos;s context menu&lt;/b&gt;</source>
-        <translation type="unfinished"></translation>
+        <location filename="../../src/settingseditor.cpp" line="145" />
+        <source>&lt;b&gt;NOTE! Some translators might require the translation window to be visible. You can make it using the "Show translator" entry in the tray icon's context menu&lt;/b&gt;</source>
+        <translation>&lt;b&gt;注意! 一部の翻訳サービスは翻訳ウィンドウが表示されている必要があります。トレイアイコンのコンテキストメニューから「翻訳サービスを表示」を使用できます&lt;/b&gt;</translation>
     </message>
     <message>
-        <location filename="../../src/settingseditor.cpp" line="153"/>
+        <location filename="../../src/settingseditor.cpp" line="153" />
         <source>Sample text</source>
-        <translation type="unfinished"></translation>
+        <translation>サンプルテキスト</translation>
     </message>
     <message>
-        <location filename="../../src/settingseditor.cpp" line="218"/>
+        <location filename="../../src/settingseditor.cpp" line="218" />
         <source>The program workflow consists of the following steps:
 1. Selection on the screen area
 2. Recognition of the selected area
@@ -1185,311 +1194,320 @@ User interaction is only required for step 1.
 Steps 2, 3 and 4 require additional data that can be downloaded from the updates page.
 
 At first start, go to the updates page and install desired recognition languages and translators and, optionally, hunspell dictionaries.
-Then set default recognition and translation languages, enable some (or all) translators and the &quot;translate text&quot; setting, if needed.</source>
-        <translation type="unfinished"></translation>
+Then set default recognition and translation languages, enable some (or all) translators and the "translate text" setting, if needed.</source>
+        <translation>プログラムのワークフローは以下のステップで構成されます:
+1. 画面領域の選択
+2. 選択領域の認識
+3. 認識テキストの修正 (オプション)
+4. 修正テキストの翻訳 (オプション)
+ユーザーの操作が必要なのはステップ1のみです。
+ステップ2、3、4には更新ページからダウンロードできる追加データが必要です。
+
+初回起動時は、更新ページに移動して希望する認識言語と翻訳サービス、およびオプションでHunspell辞書をインストールしてください。
+その後、デフォルトの認識言語と翻訳言語を設定し、必要に応じて翻訳サービスを有効化して「テキストを翻訳」設定を有効にしてください。</translation>
     </message>
     <message>
-        <location filename="../../src/settingseditor.cpp" line="389"/>
+        <location filename="../../src/settingseditor.cpp" line="389" />
         <source>Portable changed. Apply settings first</source>
-        <translation type="unfinished"></translation>
+        <translation>ポータブルモードが変更されました。先に設定を適用してください</translation>
     </message>
 </context>
 <context>
     <name>SubstitutionsTable</name>
     <message>
-        <location filename="../../src/substitutionstable.cpp" line="81"/>
+        <location filename="../../src/substitutionstable.cpp" line="81" />
         <source>Language</source>
-        <translation type="unfinished"></translation>
+        <translation>言語</translation>
     </message>
     <message>
-        <location filename="../../src/substitutionstable.cpp" line="81"/>
+        <location filename="../../src/substitutionstable.cpp" line="81" />
         <source>Source</source>
-        <translation type="unfinished"></translation>
+        <translation>ソース</translation>
     </message>
     <message>
-        <location filename="../../src/substitutionstable.cpp" line="81"/>
+        <location filename="../../src/substitutionstable.cpp" line="81" />
         <source>Changed</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished" />
     </message>
 </context>
 <context>
     <name>Translator</name>
     <message>
-        <location filename="../../src/translate/translator.cpp" line="43"/>
+        <location filename="../../src/translate/translator.cpp" line="43" />
         <source>Load images</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished" />
     </message>
     <message>
-        <location filename="../../src/translate/translator.cpp" line="44"/>
+        <location filename="../../src/translate/translator.cpp" line="44" />
         <source>Debug</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished" />
     </message>
     <message>
-        <location filename="../../src/translate/translator.cpp" line="58"/>
+        <location filename="../../src/translate/translator.cpp" line="58" />
         <source>Translator</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished" />
     </message>
     <message>
-        <location filename="../../src/translate/translator.cpp" line="65"/>
+        <location filename="../../src/translate/translator.cpp" line="65" />
         <source>Url:</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished" />
     </message>
     <message>
-        <location filename="../../src/translate/translator.cpp" line="138"/>
+        <location filename="../../src/translate/translator.cpp" line="138" />
         <source>No translators loaded from
 %1
 (%2)</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished" />
     </message>
     <message>
-        <location filename="../../src/translate/translator.cpp" line="270"/>
+        <location filename="../../src/translate/translator.cpp" line="270" />
         <source>All translators failed
 %1</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished" />
     </message>
 </context>
 <context>
     <name>TrayIcon</name>
     <message>
-        <location filename="../../src/trayicon.cpp" line="52"/>
+        <location filename="../../src/trayicon.cpp" line="52" />
         <source>Failed to register global shortcuts:
 %1
 Most likely they are already in use by another program</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished" />
     </message>
     <message>
-        <location filename="../../src/trayicon.cpp" line="166"/>
-        <location filename="../../src/trayicon.cpp" line="173"/>
+        <location filename="../../src/trayicon.cpp" line="166" />
+        <location filename="../../src/trayicon.cpp" line="173" />
         <source>Error</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished" />
     </message>
     <message>
-        <location filename="../../src/trayicon.cpp" line="204"/>
+        <location filename="../../src/trayicon.cpp" line="204" />
         <source>Capture</source>
-        <translation type="unfinished"></translation>
+        <translation>キャプチャ</translation>
     </message>
     <message>
-        <location filename="../../src/trayicon.cpp" line="209"/>
+        <location filename="../../src/trayicon.cpp" line="209" />
         <source>Repeat capture</source>
-        <translation type="unfinished"></translation>
+        <translation>繰り返しキャプチャ</translation>
     </message>
     <message>
-        <location filename="../../src/trayicon.cpp" line="214"/>
+        <location filename="../../src/trayicon.cpp" line="214" />
         <source>Capture saved areas</source>
-        <translation type="unfinished"></translation>
+        <translation>保存エリアをキャプチャ</translation>
     </message>
     <message>
-        <location filename="../../src/trayicon.cpp" line="220"/>
+        <location filename="../../src/trayicon.cpp" line="220" />
         <source>Result</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished" />
     </message>
     <message>
-        <location filename="../../src/trayicon.cpp" line="222"/>
+        <location filename="../../src/trayicon.cpp" line="222" />
         <source>Show</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished" />
     </message>
     <message>
-        <location filename="../../src/trayicon.cpp" line="227"/>
+        <location filename="../../src/trayicon.cpp" line="227" />
         <source>To clipboard</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished" />
     </message>
     <message>
-        <location filename="../../src/trayicon.cpp" line="234"/>
+        <location filename="../../src/trayicon.cpp" line="234" />
         <source>Show translator</source>
-        <translation type="unfinished"></translation>
+        <translation>翻訳サービスを表示</translation>
     </message>
     <message>
-        <location filename="../../src/trayicon.cpp" line="240"/>
+        <location filename="../../src/trayicon.cpp" line="240" />
         <source>Settings</source>
-        <translation type="unfinished"></translation>
+        <translation>設定</translation>
     </message>
     <message>
-        <location filename="../../src/trayicon.cpp" line="246"/>
+        <location filename="../../src/trayicon.cpp" line="246" />
         <source>Quit</source>
-        <translation type="unfinished"></translation>
+        <translation>終了</translation>
     </message>
 </context>
 <context>
     <name>Updates</name>
     <message>
-        <location filename="../../src/service/updates.cpp" line="88"/>
+        <location filename="../../src/service/updates.cpp" line="88" />
         <source>Tb</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished" />
     </message>
     <message>
-        <location filename="../../src/service/updates.cpp" line="92"/>
+        <location filename="../../src/service/updates.cpp" line="92" />
         <source>Gb</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished" />
     </message>
     <message>
-        <location filename="../../src/service/updates.cpp" line="96"/>
+        <location filename="../../src/service/updates.cpp" line="96" />
         <source>Mb</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished" />
     </message>
     <message>
-        <location filename="../../src/service/updates.cpp" line="100"/>
+        <location filename="../../src/service/updates.cpp" line="100" />
         <source>Kb</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished" />
     </message>
     <message>
-        <location filename="../../src/service/updates.cpp" line="103"/>
+        <location filename="../../src/service/updates.cpp" line="103" />
         <source>bytes</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished" />
     </message>
     <message>
-        <location filename="../../src/service/updates.cpp" line="111"/>
+        <location filename="../../src/service/updates.cpp" line="111" />
         <source>Not installed</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished" />
     </message>
     <message>
-        <location filename="../../src/service/updates.cpp" line="113"/>
+        <location filename="../../src/service/updates.cpp" line="113" />
         <source>Update available</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished" />
     </message>
     <message>
-        <location filename="../../src/service/updates.cpp" line="114"/>
+        <location filename="../../src/service/updates.cpp" line="114" />
         <source>Up to date</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished" />
     </message>
     <message>
-        <location filename="../../src/service/updates.cpp" line="122"/>
+        <location filename="../../src/service/updates.cpp" line="122" />
         <source>Remove</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished" />
     </message>
     <message>
-        <location filename="../../src/service/updates.cpp" line="123"/>
+        <location filename="../../src/service/updates.cpp" line="123" />
         <source>Install/Update</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished" />
     </message>
     <message>
-        <location filename="../../src/service/updates.cpp" line="628"/>
+        <location filename="../../src/service/updates.cpp" line="628" />
         <source>Directory is not writable
 %1</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished" />
     </message>
     <message>
-        <location filename="../../src/service/updates.cpp" line="640"/>
-        <location filename="../../src/service/updates.cpp" line="675"/>
+        <location filename="../../src/service/updates.cpp" line="640" />
+        <location filename="../../src/service/updates.cpp" line="675" />
         <source>Failed to remove file
 %1
 Error %2</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished" />
     </message>
     <message>
-        <location filename="../../src/service/updates.cpp" line="650"/>
+        <location filename="../../src/service/updates.cpp" line="650" />
         <source>Failed to create path
 %1</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished" />
     </message>
     <message>
-        <location filename="../../src/service/updates.cpp" line="657"/>
+        <location filename="../../src/service/updates.cpp" line="657" />
         <source>Failed to create temp file
 %1
 Error %2</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished" />
     </message>
     <message>
-        <location filename="../../src/service/updates.cpp" line="665"/>
+        <location filename="../../src/service/updates.cpp" line="665" />
         <source>Failed to write to temp file
 %1
 Error %2</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished" />
     </message>
     <message>
-        <location filename="../../src/service/updates.cpp" line="682"/>
+        <location filename="../../src/service/updates.cpp" line="682" />
         <source>Failed to copy file
 %1
 to %2
 Error %3</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished" />
     </message>
 </context>
 <context>
     <name>WebPage</name>
     <message>
-        <location filename="../../src/translate/webpage.cpp" line="137"/>
+        <location filename="../../src/translate/webpage.cpp" line="137" />
         <source>timed out</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished" />
     </message>
 </context>
 <context>
     <name>service::KeySequenceEdit</name>
     <message>
-        <location filename="../../src/service/keysequenceedit.cpp" line="10"/>
+        <location filename="../../src/service/keysequenceedit.cpp" line="10" />
         <source>Press shortcut</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished" />
     </message>
 </context>
 <context>
     <name>update::Loader</name>
     <message>
-        <location filename="../../src/service/updates.cpp" line="576"/>
+        <location filename="../../src/service/updates.cpp" line="576" />
         <source>Failed to download file
 %1. Error %2</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished" />
     </message>
     <message>
-        <location filename="../../src/service/updates.cpp" line="584"/>
+        <location filename="../../src/service/updates.cpp" line="584" />
         <source>Empty data downloaded from
 %1</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished" />
     </message>
 </context>
 <context>
     <name>update::Model</name>
     <message>
-        <location filename="../../src/service/updates.cpp" line="158"/>
+        <location filename="../../src/service/updates.cpp" line="158" />
         <source>Failed to parse: %1 at %2</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished" />
     </message>
     <message>
-        <location filename="../../src/service/updates.cpp" line="166"/>
+        <location filename="../../src/service/updates.cpp" line="166" />
         <source>Wrong updates version: %1</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished" />
     </message>
     <message>
-        <location filename="../../src/service/updates.cpp" line="178"/>
+        <location filename="../../src/service/updates.cpp" line="178" />
         <source>No data parsed</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished" />
     </message>
     <message>
-        <location filename="../../src/service/updates.cpp" line="481"/>
+        <location filename="../../src/service/updates.cpp" line="481" />
         <source>Name</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished" />
     </message>
     <message>
-        <location filename="../../src/service/updates.cpp" line="481"/>
+        <location filename="../../src/service/updates.cpp" line="481" />
         <source>State</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished" />
     </message>
     <message>
-        <location filename="../../src/service/updates.cpp" line="482"/>
+        <location filename="../../src/service/updates.cpp" line="482" />
         <source>Size</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished" />
     </message>
     <message>
-        <location filename="../../src/service/updates.cpp" line="482"/>
+        <location filename="../../src/service/updates.cpp" line="482" />
         <source>Version</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished" />
     </message>
     <message>
-        <location filename="../../src/service/updates.cpp" line="483"/>
+        <location filename="../../src/service/updates.cpp" line="483" />
         <source>Progress</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished" />
     </message>
 </context>
 <context>
     <name>update::Updater</name>
     <message>
-        <location filename="../../src/service/updates.cpp" line="850"/>
+        <location filename="../../src/service/updates.cpp" line="850" />
         <source>Empty data unpacked from
 %1</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished" />
     </message>
     <message>
-        <location filename="../../src/service/updates.cpp" line="916"/>
+        <location filename="../../src/service/updates.cpp" line="916" />
         <source>Update all</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished" />
     </message>
 </context>
 </TS>
