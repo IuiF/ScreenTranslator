@@ -40,7 +40,6 @@ jobs:
       matrix:
         config:
           - { name: "win64", os: windows-latest }
-          - { name: "win32", os: windows-latest }
           - { name: "linux", os: ubuntu-22.04 }
     steps:
       - uses: actions/checkout@v4
