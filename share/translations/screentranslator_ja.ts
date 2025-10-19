@@ -1257,7 +1257,9 @@ Then set default recognition and translation languages, enable some (or all) tra
         <source>No translators loaded from
 %1
 (%2)</source>
-        <translation type="unfinished" />
+        <translation>翻訳エンジンが読み込まれませんでした
+%1
+(%2)</translation>
     </message>
     <message>
         <location filename="../../src/translate/translator.cpp" line="270" />

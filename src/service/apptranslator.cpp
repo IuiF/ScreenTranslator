@@ -19,7 +19,6 @@ void AppTranslator::retranslate(const QString &language)
     old->deleteLater();
   }
 
-  QLocale locale = language.isEmpty() ? QLocale() : QLocale(language);
   const auto files =
       QStringList{QStringLiteral("qt"), QStringLiteral("qtbase")} +
       translationFiles_;
@@ -28,7 +27,18 @@ void AppTranslator::retranslate(const QString &language)
   auto last = new QTranslator(app);
   for (const auto &name : files) {
     for (const auto &path : paths) {
-      if (!last->load(locale, name, QLatin1String("_"), path))
+      bool loaded = false;
+      if (language.isEmpty()) {
+        loaded = last->load(QLocale(), name, QLatin1String("_"), path);
+      } else {
+        // Try language code directly first (e.g., "screentranslator_ja")
+        loaded = last->load(name + "_" + language, path);
+        // If that fails, try with QLocale
+        if (!loaded) {
+          loaded = last->load(QLocale(language), name, QLatin1String("_"), path);
+        }
+      }
+      if (!loaded)
         continue;
       app->installTranslator(last);
       last = new QTranslator(app);
